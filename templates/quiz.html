@@ -1,26 +1,54 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Python Quiz</h2>
+<h2 style="font-weight: bold; text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8); color: white;">Python Quiz</h2>
 <form method="post" action="/result">
     {% for idx, question in enumerate(questions) %}
-        <div class="form-group question-container" style="display: none;">
-            <label class="question-text" data-text="{{ idx + 1 }}. {{ question['question'] }}" id="question-{{ idx }}"></label>
+        <div class="form-group question-container" style="display: none; background: rgba(255, 255, 255, 0.8); padding: 15px; border-radius: 10px;">
+            <label class="question-text" data-text="{{ idx + 1 }}. {{ question['question'] }}" id="question-{{ idx }}" style="font-weight: bold; color: black;"></label>
             {% for opt_idx, option in enumerate(question['options']) %}
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="question-{{ idx }}" id="question-{{ idx }}-{{ opt_idx }}" value="{{ option }}" required>
-                    <label class="form-check-label option-text" data-text="{{ option }}" for="question-{{ idx }}-{{ opt_idx }}"></label>
+                    <label class="form-check-label option-text" data-text="{{ option }}" for="question-{{ idx }}-{{ opt_idx }}" style="font-weight: bold; color: black;"></label>
                 </div>
             {% endfor %}
         </div>
     {% endfor %}
-    <button type="submit" class="btn btn-success">Submit</button>
+    <button type="submit" class="btn btn-success glow-button">Submit</button>
     <div class="form-check mt-2">
         <input class="form-check-input" type="checkbox" id="visualize" name="visualize">
-        <label class="form-check-label" for="visualize">
+        <label class="form-check-label" for="visualize" style="font-weight: bold; color: black;">
             Show Visualization
         </label>
     </div>
 </form>
 <script src="{{ url_for('static', filename='typewriter.js') }}"></script>
+
+<style>
+    body {
+        background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTR4aHp4NnpxMjdwaTZ3Y204bm92aHMyd2drbHRzcHF5N2xoa2o1NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e8qvtPuCyKXI4qJK7d/giphy.gif') no-repeat center center fixed;
+        background-size: cover;
+    }
+    .glow-button {
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: linear-gradient(45deg, #ff6600, #ffcc00);
+        color: black;
+        transition: 0.3s;
+        box-shadow: 0 0 10px rgba(255, 102, 0, 0.5);
+    }
+    .glow-button:hover {
+        box-shadow: 0 0 20px rgba(255, 102, 0, 0.8);
+        transform: scale(1.1);
+    }
+    .form-check-label, .question-text {
+        font-size: 18px;
+    }
+    .form-check-input:checked + .form-check-label {
+        color: #ffcc00;
+    }
+</style>
 {% endblock %}
