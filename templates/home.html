@@ -5,9 +5,9 @@
     <title>Quiz Home</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Poppins', sans-serif;
+            background: url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif') no-repeat center center/cover;
+            color: #fff;
             margin: 0;
             padding: 0;
             display: flex;
@@ -16,66 +16,110 @@
             height: 100vh;
         }
 
-        h1 {
-            color: #333;
+        .quiz-header {
             text-align: center;
             margin-bottom: 20px;
+            font-size: 42px;
+            font-weight: bold;
+            color: #ffea00;
+            text-shadow: 5px 5px 15px rgba(255, 255, 0, 1), 0 0 30px rgba(255, 165, 0, 0.8);
+            transition: transform 0.3s, text-shadow 0.3s;
+            animation: glowEffect 1.5s infinite alternate;
+        }
+
+        .quiz-header:hover {
+            transform: scale(1.1);
+            text-shadow: 8px 8px 20px rgba(255, 255, 0, 1), 0 0 40px rgba(255, 165, 0, 1);
+        }
+
+        @keyframes glowEffect {
+            from {
+                text-shadow: 5px 5px 15px rgba(255, 255, 0, 1), 0 0 30px rgba(255, 165, 0, 0.8);
+            }
+            to {
+                text-shadow: 8px 8px 25px rgba(255, 255, 0, 1), 0 0 50px rgba(255, 165, 0, 1);
+            }
         }
 
         form {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
+            background: rgba(255, 255, 255, 0.3);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 40px rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            max-width: 500px;
             width: 100%;
+            border: 3px solid rgba(255, 255, 255, 0.7);
         }
 
         label {
             display: block;
-            margin: 10px 0 5px;
+            margin: 12px 0 6px;
             font-weight: bold;
+            font-size: 20px;
         }
 
         input[type="checkbox"] {
             margin-right: 10px;
+            transform: scale(1.8);
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+        }
+
+        input[type="checkbox"]:hover {
+            transform: scale(2);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+            background: #ffea00;
         }
 
         input[type="number"] {
             width: 100%;
-            padding: 8px;
+            padding: 12px;
             margin: 5px 0 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+            border: none;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.4);
+            color: #000;
+            font-size: 18px;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 1);
         }
 
         button {
             display: block;
             width: 100%;
-            padding: 10px;
-            background: #007BFF;
+            padding: 14px;
+            background: linear-gradient(135deg, #ff9800, #ff5722);
             color: #fff;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
 
         button:hover {
-            background: #0056b3;
+            transform: scale(1.2);
+            box-shadow: 0 0 30px rgba(255, 165, 0, 1);
         }
 
         p {
             text-align: center;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <form action="/quiz" method="post">
-        <h1>Welcome to the Quiz</h1>
+        <div class="quiz-header">Welcome to the Quiz</div>
         <label for="languages">Select Languages:</label>
         {% for language in languages %}
-            <input type="checkbox" name="languages" value="{{ language }}">{{ language }}<br>
+            <input type="checkbox" name="languages" value="{{ language }}"> <strong>{{ language }}</strong><br>
         {% endfor %}
         
         <label for="proficiency">Rate your proficiency (1-10):</label>
@@ -83,7 +127,7 @@
 
         <button type="submit">Start Quiz</button>
         {% if error %}
-            <p style="color:red;">{{ error }}</p>
+            <p style="color: red;">{{ error }}</p>
         {% endif %}
     </form>
 </body>
