@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Which of the following is the correct way to define the main function in C?",
+        "options": ["int main() {}", "void main() {}", "main() int {}", "int main {}"],
+        "answer": "int main() {}",
+        "topic": "Main Function: The `main` function is the entry point of a C program and must return an integer.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `#include` directive in C?",
+        "options": ["Includes the contents of a file", "Defines a constant value", "Specifies the program's entry point", "Declares a function prototype"],
+        "answer": "Includes the contents of a file",
+        "topic": "Preprocessor Directives: `#include` is used to include the contents of a file, such as header files, into the program.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to define a constant value in C?",
+        "options": ["const", "static", "define", "immutable"],
+        "answer": "const",
+        "topic": "Constant Variables: The `const` keyword is used to define a variable whose value cannot be modified after initialization.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the default return type of a function in C if no return type is specified?",
+        "options": ["int", "void", "char", "float"],
+        "answer": "int",
+        "topic": "Function Return Types: In C, if no return type is specified, the function is assumed to return `int` by default.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `static` keyword when used with a function in C?",
+        "options": ["Limits the function's scope to the file it is defined in", "Makes the function available globally", "Prevents the function from being optimized", "Defines a function as inline"],
+        "answer": "Limits the function's scope to the file it is defined in",
+        "topic": "Static Functions: The `static` keyword limits the visibility of the function to the file in which it is declared.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you declare a pointer to an integer in C?",
+        "options": ["int *ptr;", "int ptr*;", "int &ptr;", "int *ptr;"],
+        "answer": "int *ptr;",
+        "topic": "Pointers: `int *ptr;` declares a pointer to an integer, which stores the address of an integer variable.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of the following code snippet?\n`int x = 5;\nint y = x++; \nprintf(\"%d %d\", x, y);`",
+        "options": ["6 5", "5 6", "6 6", "5 5"],
+        "answer": "6 5",
+        "topic": "Post-Increment Operator: `x++` increments `x` after its current value has been used, so `x` becomes 6 and `y` is 5.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which operator is used to access a member of a structure through a pointer in C?",
+        "options": ["->", ".", "&", "::"],
+        "answer": "->",
+        "topic": "Pointer Operators: The `->` operator is used to access members of a structure through a pointer.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you dynamically allocate memory for an array of 10 integers in C?",
+        "options": ["int *arr = malloc(10 * sizeof(int));", "int arr = malloc(10 * sizeof(int));", "int *arr = new int[10];", "int arr[10] = malloc(10 * sizeof(int));"],
+        "answer": "int *arr = malloc(10 * sizeof(int));",
+        "topic": "Dynamic Memory Allocation: `malloc` is used to allocate memory dynamically on the heap for an array.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `void` keyword in C?",
+        "options": ["Indicates a function does not return a value", "Declares a pointer to any type", "Defines a constant variable", "Specifies a data type for function arguments"],
+        "answer": "Indicates a function does not return a value",
+        "topic": "Void Keyword: `void` indicates that a function does not return any value or that a pointer can point to any data type.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int a = 10, b = 5;\nprintf(\"%d\", a > b ? a : b);`",
+        "options": ["10", "5", "15", "Error"],
+        "answer": "10",
+        "topic": "Ternary Operator: The ternary operator `? :` is used for conditional expressions. Here it evaluates to `a` if `a > b`, which is 10.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define a multi-dimensional array in C?",
+        "options": ["int arr[3][4];", "int arr[3,4];", "int arr[3] [4];", "int arr[3,4] = {};"],
+        "answer": "int arr[3][4];",
+        "topic": "Multi-Dimensional Arrays: Arrays with more than one dimension are defined with each dimension's size specified in brackets.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `enum` keyword in C?",
+        "options": ["Defines a set of named integer constants", "Creates a new data type", "Declares an array of integers", "Initializes a constant value"],
+        "answer": "Defines a set of named integer constants",
+        "topic": "Enumerations: `enum` is used to define a set of named integer constants, which can make the code more readable.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which library function is used to read a string from the user in C?",
+        "options": ["scanf", "gets", "fgets", "read"],
+        "answer": "fgets",
+        "topic": "Input Functions: `fgets` is used to read a string from the standard input, including handling buffer overflow.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the result of the following code snippet?\n`int x = 7;\nint y = 2;\nint result = x / y; \nprintf(\"%d\", result);`",
+        "options": ["3", "3.5", "2", "Error"],
+        "answer": "3",
+        "topic": "Integer Division: In C, dividing two integers results in integer division, truncating any fractional part.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you declare a function prototype in C?",
+        "options": ["returnType functionName(parameters);", "functionName(parameters) returnType;", "returnType functionName; (parameters);", "functionName returnType(parameters);"],
+        "answer": "returnType functionName(parameters);",
+        "topic": "Function Prototypes: A function prototype declares the function's return type and parameters without its body.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `sizeof` operator return in C?",
+        "options": ["The size of a data type or variable in bytes", "The length of a string", "The number of elements in an array", "The memory address of a variable"],
+        "answer": "The size of a data type or variable in bytes",
+        "topic": "Sizeof Operator: `sizeof` returns the size in bytes of a data type or variable, useful for memory management.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is a pointer to a pointer in C?",
+        "options": ["A variable that stores the address of another pointer", "A variable that stores the address of a data type", "A function that takes multiple arguments", "An array of pointers"],
+        "answer": "A variable that stores the address of another pointer",
+        "topic": "Pointer to Pointer: A pointer to a pointer is a variable that stores the address of another pointer variable.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following is the correct syntax for defining a macro in C?",
+        "options": ["#define MACRO_NAME value", "#macro MACRO_NAME value", "#define MACRO_NAME(value)", "macro MACRO_NAME = value"],
+        "answer": "#define MACRO_NAME value",
+        "topic": "Macros: `#define` is used to create macros, which are symbolic names for constants or expressions.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `break` statement in C?",
+        "options": ["Exits a loop or switch statement", "Skips the current iteration of a loop", "Continues to the next iteration of a loop", "Terminates the program"],
+        "answer": "Exits a loop or switch statement",
+        "topic": "Control Flow: The `break` statement is used to exit from a loop or switch statement prematurely.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int x = 5;\nint y = 10;\nint z = ++x + y--;\nprintf(\"%d\", z);`",
+        "options": ["16", "15", "14", "17"],
+        "answer": "16",
+        "topic": "Pre-Increment and Post-Decrement: `++x` increments `x` before using it, while `y--` decrements `y` after its value is used.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you declare a structure in C?",
+        "options": ["struct StructName { members };", "structure StructName { members };", "class StructName { members };", "typedef struct StructName { members };"],
+        "answer": "struct StructName { members };",
+        "topic": "Structures: `struct` is used to define a structure, which groups related variables under one name.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is a segmentation fault in C?",
+        "options": ["An error that occurs when a program tries to access restricted memory", "A logical error in a program", "A syntax error during compilation", "A runtime error related to input/output operations"],
+        "answer": "An error that occurs when a program tries to access restricted memory",
+        "topic": "Runtime Errors: A segmentation fault occurs when a program tries to access memory that it is not allowed to, often due to invalid pointer operations.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the correct syntax to define a variable as a `const` in C?",
+        "options": ["const int x = 10;", "int const x = 10;", "const x = 10 int;", "int x const = 10;"],
+        "answer": "const int x = 10;",
+        "topic": "Constant Variables: `const` is used to define variables whose value cannot be changed after initialization.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you access elements of an array using pointer notation?",
+        "options": ["*(arr + index)", "arr[index]", "arr + index", "index[arr]"],
+        "answer": "*(arr + index)",
+        "topic": "Pointer Notation: Pointer notation allows accessing array elements using pointer arithmetic.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `return` statement in a C function?",
+        "options": ["To return a value from a function and exit the function", "To exit the program", "To skip the rest of the function", "To continue with the next iteration of a loop"],
+        "answer": "To return a value from a function and exit the function",
+        "topic": "Function Return: `return` is used to send a value back from a function to its caller and terminate the function.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int a = 5, b = 10;\nprintf(\"%d\", a < b ? a : b);`",
+        "options": ["5", "10", "15", "Error"],
+        "answer": "5",
+        "topic": "Ternary Operator: The ternary operator `? :` evaluates `a` if `a < b`, otherwise `b`. Here, `a` is 5.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you declare a function that takes variable arguments in C?",
+        "options": ["void functionName(...);", "void functionName(args...);", "void functionName(va_list args);", "void functionName(varargs);"],
+        "answer": "void functionName(...);",
+        "topic": "Variable Arguments: `...` is used to declare a function that can accept a variable number of arguments.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int x = 10;\nint y = 5;\nprintf(\"%d\", x & y);`",
+        "options": ["0", "5", "10", "15"],
+        "answer": "0",
+        "topic": "Bitwise Operators: `&` performs a bitwise AND operation, resulting in `0` for `10 & 5`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you free dynamically allocated memory in C?",
+        "options": ["free(ptr);", "delete ptr;", "dispose(ptr);", "release(ptr);"],
+        "answer": "free(ptr);",
+        "topic": "Memory Management: `free` is used to deallocate memory that was previously allocated with `malloc` or similar functions.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `typedef` keyword in C?",
+        "options": ["Defines a new type name for an existing type", "Creates a new variable", "Declares a function prototype", "Defines a macro"],
+        "answer": "Defines a new type name for an existing type",
+        "topic": "Type Definitions: `typedef` is used to create an alias for an existing data type, improving code readability.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you check if a file has been successfully opened in C?",
+        "options": ["Check if the file pointer is not NULL", "Check if the file pointer is NULL", "Check if the file pointer is zero", "Check if the file pointer is negative"],
+        "answer": "Check if the file pointer is not NULL",
+        "topic": "File Handling: A file pointer should be checked to ensure it is not NULL to confirm successful file opening.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `fseek` function in C?",
+        "options": ["Sets the file position to a specific location", "Reads a file", "Writes data to a file", "Closes a file"],
+        "answer": "Sets the file position to a specific location",
+        "topic": "File Positioning: `fseek` is used to move the file position indicator to a specific location in a file.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `#define` directive do in C?",
+        "options": ["Defines symbolic constants or macros", "Includes the contents of another file", "Declares a function prototype", "Allocates memory dynamically"],
+        "answer": "Defines symbolic constants or macros",
+        "topic": "Preprocessor Directives: `#define` is used to define constants or macros that can be used throughout the code.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int x = 8;\nprintf(\"%d\", x >> 2);`",
+        "options": ["2", "4", "6", "8"],
+        "answer": "2",
+        "topic": "Bitwise Shift Operators: `>>` performs a right shift operation, shifting the bits of `8` two positions to the right, resulting in `2`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you declare a global variable in C?",
+        "options": ["Declare the variable outside of all functions", "Declare the variable inside a function with the `static` keyword", "Declare the variable inside a function without `static`", "Declare the variable with the `extern` keyword"],
+        "answer": "Declare the variable outside of all functions",
+        "topic": "Global Variables: Global variables are declared outside of all functions and are accessible throughout the entire program.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `volatile` keyword in C?",
+        "options": ["Indicates that a variable may be changed by external factors", "Defines a constant variable", "Marks a variable as immutable", "Optimizes the code for performance"],
+        "answer": "Indicates that a variable may be changed by external factors",
+        "topic": "Volatile Variables: `volatile` tells the compiler that the variable can be changed unexpectedly, often used in embedded programming.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "How do you create a pointer to a function in C?",
+        "options": ["returnType (*ptr)(parameters);", "returnType ptr(parameters);", "returnType &ptr(parameters);", "returnType ptr*();"],
+        "answer": "returnType (*ptr)(parameters);",
+        "topic": "Function Pointers: A pointer to a function is declared using `returnType (*ptr)(parameters);`, allowing function calls through the pointer.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What does the `memcpy` function do in C?",
+        "options": ["Copies memory from one location to another", "Compares two blocks of memory", "Frees allocated memory", "Initializes a block of memory"],
+        "answer": "Copies memory from one location to another",
+        "topic": "Memory Functions: `memcpy` copies a specified number of bytes from one memory location to another.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define a macro that takes arguments in C?",
+        "options": ["#define MACRO_NAME(arg1, arg2) (expression)", "#define MACRO_NAME(arg1, arg2) expression", "macro MACRO_NAME(arg1, arg2) (expression)", "#define MACRO_NAME(arg1, arg2) { expression }"],
+        "answer": "#define MACRO_NAME(arg1, arg2) (expression)",
+        "topic": "Macro Functions: Macros can take arguments and are defined using `#define` to create parameterized macros.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`char str[] = \"Hello\";\nstr[0] = 'J';\nprintf(\"%s\", str);`",
+        "options": ["Jello", "Hello", "Jello World", "J"],
+        "answer": "Jello",
+        "topic": "String Manipulation: Strings in C are mutable arrays of characters, so modifying `str[0]` changes the string to `Jello`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you include a user-defined header file in C?",
+        "options": ["#include \"header.h\"", "#include <header.h>", "#include user/header.h", "#include <user/header.h>"],
+        "answer": "#include \"header.h\"",
+        "topic": "Header Files: User-defined header files are included using double quotes, whereas standard libraries use angle brackets.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int a = 5, b = 10;\nint result = a ^ b;\nprintf(\"%d\", result);`",
+        "options": ["15", "5", "10", "7"],
+        "answer": "15",
+        "topic": "Bitwise XOR Operator: `^` performs a bitwise XOR operation. For `5` (0101) and `10` (1010), the result is `15` (1111).",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you declare a multi-dimensional array of 3x4 integers in C?",
+        "options": ["int arr[3][4];", "int arr[4][3];", "int arr[3,4];", "int arr[3] [4];"],
+        "answer": "int arr[3][4];",
+        "topic": "Multi-Dimensional Arrays: Arrays with multiple dimensions are declared with each dimension's size in brackets.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the result of the following code snippet?\n`int x = 5;\nint y = 2;\nprintf(\"%d\", x % y);`",
+        "options": ["1", "2", "3", "0"],
+        "answer": "1",
+        "topic": "Modulo Operator: The `%` operator returns the remainder of division. `5 % 2` results in `1`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you declare a union in C?",
+        "options": ["union UnionName { members };", "structure UnionName { members };", "typedef union UnionName { members };", "class UnionName { members };"],
+        "answer": "union UnionName { members };",
+        "topic": "Unions: `union` allows defining a data structure where all members share the same memory space.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `fclose` function do in C?",
+        "options": ["Closes an open file stream", "Opens a new file stream", "Reads data from a file", "Writes data to a file"],
+        "answer": "Closes an open file stream",
+        "topic": "File Handling: `fclose` is used to close an open file stream, ensuring all resources are freed and data is properly saved.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is a segmentation fault in C?",
+        "options": ["An error that occurs when accessing memory that is not allocated", "A syntax error during compilation", "A logical error in the program", "An error during file operations"],
+        "answer": "An error that occurs when accessing memory that is not allocated",
+        "topic": "Runtime Errors: A segmentation fault typically happens when a program tries to access restricted or invalid memory.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "How do you define a constant integer in C?",
+        "options": ["const int num = 10;", "int const num = 10;", "define num 10", "constant int num = 10;"],
+        "answer": "const int num = 10;",
+        "topic": "Constant Variables: Use `const` to define a constant integer whose value cannot be changed after initialization.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `sizeof` operator return in C?",
+        "options": ["The size of a data type or variable in bytes", "The length of a string", "The number of elements in an array", "The memory address of a variable"],
+        "answer": "The size of a data type or variable in bytes",
+        "topic": "Sizeof Operator: `sizeof` returns the size of a data type or variable in bytes, used for memory allocation and checks.",
+        "difficulty": "Basic"
+    }
+]

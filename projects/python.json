@@ -1,0 +1,360 @@
+[
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 5\nprint(type(x))\n```\n",
+        "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'list'>"],
+        "answer": "<class 'int'>",
+        "topic": "Data Types: In Python, the type() function is used to determine the type of a variable or value, helping to understand the underlying data type.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nprint(len(x))\n```\n",
+        "options": ["3", "2", "1", "4"],
+        "answer": "3",
+        "topic": "List Length: The len() function in Python returns the number of items in a list or any other iterable, providing a way to determine the size of the data structure.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\ndef add(a, b):\n    return a + b\n\nprint(add(2, 3))\n```\n",
+        "options": ["5", "23", "None", "Error"],
+        "answer": "5",
+        "topic": "Functions: Functions in Python are defined using the def keyword and can take arguments to perform operations, returning the result using the return keyword.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nx.append(4)\nprint(x)\n```\n",
+        "options": ["[1, 2, 3, 4]", "[1, 2, 3]", "[4, 1, 2, 3]", "[1, 2, 3, 0]"],
+        "answer": "[1, 2, 3, 4]",
+        "topic": "List Methods: The append() method in Python adds an element to the end of a list, modifying the list in place and extending its length by one.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 10\nif x > 5:\n    print('x is greater than 5')\nelse:\n    print('x is less than or equal to 5')\n```\n",
+        "options": ["x is greater than 5", "x is less than or equal to 5", "Error", "None"],
+        "answer": "x is greater than 5",
+        "topic": "Conditional Statements: In Python, if-else statements are used to execute different blocks of code based on the evaluation of a condition, allowing for conditional execution of code.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = (1, 2, 3)\nprint(x[1])\n```\n",
+        "options": ["1", "2", "3", "Error"],
+        "answer": "2",
+        "topic": "Tuples: Tuples in Python are immutable sequences of elements, and individual elements can be accessed using indexing, similar to lists.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nd = {'a': 1, 'b': 2}\nprint(d['b'])\n```\n",
+        "options": ["1", "2", "Error", "None"],
+        "answer": "2",
+        "topic": "Dictionaries: Dictionaries in Python are collections of key-value pairs, and values can be accessed using their corresponding keys, allowing for efficient data retrieval.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 5\nwhile x > 0:\n    print(x)\n    x -= 1\n```\n",
+        "options": ["5 4 3 2 1", "4 3 2 1", "1 2 3 4 5", "5 4 3 2"],
+        "answer": "5 4 3 2 1",
+        "topic": "While Loop: The while loop in Python repeatedly executes a block of code as long as the specified condition is true, enabling iteration based on dynamic conditions.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nx.pop()\nprint(x)\n```\n",
+        "options": ["[1, 2]", "[1, 2, 3]", "[3]", "[1, 2, 0]"],
+        "answer": "[1, 2]",
+        "topic": "List Methods: The pop() method in Python removes and returns the last item from a list, modifying the list in place and reducing its length by one.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nfor i in range(3):\n    print(i)\n```\n",
+        "options": ["0 1 2", "1 2 3", "1 2 3 4", "0 1 2 3"],
+        "answer": "0 1 2",
+        "topic": "For Loop: The for loop in Python iterates over a sequence (such as a range of numbers) and executes a block of code for each element in the sequence, enabling iteration over collections.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = {1, 2, 3}\nx.add(4)\nprint(x)\n```\n",
+        "options": ["{1, 2, 3, 4}", "{4, 1, 2, 3}", "[1, 2, 3, 4]", "Error"],
+        "answer": "{1, 2, 3, 4}",
+        "topic": "Sets: Sets in Python are unordered collections of unique elements, and the add() method is used to add a new element to the set, modifying it in place.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nclass MyClass:\n    def __init__(self, x):\n        self.x = x\n\nobj = MyClass(10)\nprint(obj.x)\n```\n",
+        "options": ["10", "None", "Error", "0"],
+        "answer": "10",
+        "topic": "Classes and Objects: In Python, classes are defined using the class keyword, and objects are instances of classes. The __init__ method initializes object attributes.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\ndef func(a, b=5):\n    return a + b\n\nprint(func(3))\n```\n",
+        "options": ["8", "3", "5", "Error"],
+        "answer": "8",
+        "topic": "Default Arguments: In Python, function parameters can have default values, which are used if no argument is provided for that parameter during the function call.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3, 4, 5]\nprint(x[1:4])\n```\n",
+        "options": ["[1, 2, 3]", "[2, 3, 4]", "[1, 2, 3, 4]", "[2, 3, 4, 5]"],
+        "answer": "[2, 3, 4]",
+        "topic": "List Slicing: List slicing in Python allows extracting a portion of a list by specifying a start and end index, providing a sublist containing the selected elements.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Division by zero')\n```\n",
+        "options": ["Division by zero", "Error", "0", "None"],
+        "answer": "Division by zero",
+        "topic": "Exception Handling: Python uses try-except blocks to handle errors and exceptions gracefully during runtime, allowing the program to continue execution even if an error occurs.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\ny = [1, 2, 3]\nprint(x is y)\n```\n",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "False",
+        "topic": "Identity vs. Equality: In Python, the `is` operator checks if two variables point to the same object in memory, while `==` checks for equality of values.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 5\ny = 10\nprint(x < y < 15)\n```\n",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True",
+        "topic": "Chained Comparison: Python allows chaining of comparison operators to evaluate multiple conditions in a single expression, resulting in a boolean value based on all comparisons.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following is a Python keyword?\n\n```python\n1. global\n2. integer\n3. public\n4. private\n```",
+        "options": ["global", "integer", "public", "private"],
+        "answer": "global",
+        "topic": "Python Keywords: Keywords in Python are reserved words that have special meanings and are used to define the syntax and structure of the language.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = {'a': 1, 'b': 2}\nprint(x.keys())\n```\n",
+        "options": ["dict_keys(['a', 'b'])", "['a', 'b']", "dict_values([1, 2])", "['a', 'b']"],
+        "answer": "dict_keys(['a', 'b'])",
+        "topic": "Dictionary Methods: The `keys()` method returns a view object that displays a list of all the keys in a dictionary, allowing for iteration and access to dictionary keys.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `self` keyword in Python classes?\n\n```python\nclass MyClass:\n    def __init__(self, x):\n        self.x = x\n\nobj = MyClass(10)\nprint(obj.x)\n```\n",
+        "options": ["To refer to the instance of the class", "To define a class variable", "To access global variables", "To create a static method"],
+        "answer": "To refer to the instance of the class",
+        "topic": "Class Methods: The `self` keyword in Python is used to refer to the instance of the class within class methods, enabling access to instance variables and methods.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 'Python'\nprint(x[::-1])\n```\n",
+        "options": ["nohtyP", "Python", "Error", "nohtyP "],
+        "answer": "nohtyP",
+        "topic": "String Slicing: String slicing in Python allows for the extraction of substrings or reversing of strings by specifying a step parameter in the slice notation.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nclass MyClass:\n    x = 10\n\n    @classmethod\n    def get_x(cls):\n        return cls.x\n\nprint(MyClass.get_x())\n```\n",
+        "options": ["10", "None", "Error", "0"],
+        "answer": "10",
+        "topic": "Class Methods: Class methods in Python are defined using the @classmethod decorator and take `cls` as their first parameter, allowing access to class variables and methods.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)\n```\n",
+        "options": ["[1, 2, 3, 4]", "[1, 2, 3]", "[4, 1, 2, 3]", "Error"],
+        "answer": "[1, 2, 3, 4]",
+        "topic": "Variable Assignment: In Python, assignment of one variable to another creates a reference to the same object, so changes made through one reference affect all references to the object.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 10\nx += 5\nprint(x)\n```\n",
+        "options": ["15", "10", "5", "Error"],
+        "answer": "15",
+        "topic": "Augmented Assignment Operators: Augmented assignment operators in Python, like `+=`, modify the variable in place, updating its value based on the operation specified.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `__str__` method in Python classes?\n\n```python\nclass MyClass:\n    def __str__(self):\n        return 'MyClass instance'\n\nobj = MyClass()\nprint(obj)\n```\n",
+        "options": ["To define a string representation of the object", "To initialize class attributes", "To compare objects", "To create a static method"],
+        "answer": "To define a string representation of the object",
+        "topic": "Object Representation: The `__str__` method in Python defines a human-readable string representation of an object, used by the `print()` function and `str()` to present the object.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 'Python'\ny = 'Python'\nprint(x == y)\nprint(x is y)\n```\n",
+        "options": ["True True", "True False", "False True", "False False"],
+        "answer": "True True",
+        "topic": "String Interning: In Python, small immutable objects like strings are interned, meaning identical strings may share the same memory location, so `is` and `==` may both return True.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = {1, 2, 2, 3}\nprint(len(x))\n```\n",
+        "options": ["3", "4", "2", "1"],
+        "answer": "3",
+        "topic": "Sets: Sets in Python are collections of unique elements, so duplicate elements are automatically removed, resulting in a set size equal to the number of unique elements.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\ny = x.copy()\ny.append(4)\nprint(x)\nprint(y)\n```\n",
+        "options": ["[1, 2, 3] [1, 2, 3, 4]", "[1, 2, 3, 4] [1, 2, 3]", "[1, 2, 3] [1, 2, 3, 4]", "[1, 2, 3, 4] [1, 2, 3, 4]"],
+        "answer": "[1, 2, 3] [1, 2, 3, 4]",
+        "topic": "Shallow Copy: The `copy()` method in Python creates a shallow copy of a list, where changes to the copied list do not affect the original list, as they are separate objects.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nfor i in x:\n    print(i, end=' ')\n```\n",
+        "options": ["1 2 3", "123", "1 2", "Error"],
+        "answer": "1 2 3",
+        "topic": "Iteration: The for loop in Python iterates over each element of a sequence, executing a block of code for each element, which can be formatted or processed as needed.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 'Python'\nprint(x.split('o'))\n```\n",
+        "options": ["['Pyth', 'n']", "['Pyt', 'hon']", "['Python']", "Error"],
+        "answer": "['Pyth', 'n']",
+        "topic": "String Splitting: The `split()` method in Python divides a string into a list of substrings based on a specified delimiter, allowing for easy manipulation and processing of string data.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\ndef func(x, y=2):\n    return x * y\n\nprint(func(3, 4))\n```\n",
+        "options": ["12", "7", "6", "Error"],
+        "answer": "12",
+        "topic": "Function Parameters: In Python, functions can accept default parameter values, which are used if no value is provided during the function call, but specified values override defaults.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\ntry:\n    result = 10 / 0\nexcept (ZeroDivisionError, TypeError):\n    result = 'Error'\nfinally:\n    print(result)\n```\n",
+        "options": ["Error", "None", "10", "0"],
+        "answer": "Error",
+        "topic": "Exception Handling with Finally: The `finally` block in Python's try-except-finally structure ensures that code is executed regardless of whether an exception occurred, often used for cleanup actions.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = {1, 2, 3}\ny = {3, 4, 5}\nprint(x & y)\n```\n",
+        "options": ["{3}", "{1, 2, 3, 4, 5}", "{3, 4, 5}", "Error"],
+        "answer": "{3}",
+        "topic": "Set Operations: The `&` operator in Python performs intersection on sets, returning a set of elements that are present in both sets, allowing for set operations and comparisons.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nx.insert(1, 4)\nprint(x)\n```\n",
+        "options": ["[1, 4, 2, 3]", "[1, 2, 4, 3]", "[4, 1, 2, 3]", "[1, 2, 3, 4]"],
+        "answer": "[1, 4, 2, 3]",
+        "topic": "List Insertion: The `insert()` method in Python adds an element at a specified position in a list, shifting other elements to the right and increasing the list's length.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following statements is true about Python's garbage collection?\n\n```python\n1. It is a manual process controlled by the programmer.\n2. It is automatically managed by Python's memory management system.\n3. It requires explicit calls to `gc.collect()` for cleanup.\n4. It only collects objects from the heap memory.\n```",
+        "options": ["It is automatically managed by Python's memory management system.", "It is a manual process controlled by the programmer.", "It requires explicit calls to `gc.collect()` for cleanup.", "It only collects objects from the heap memory."],
+        "answer": "It is automatically managed by Python's memory management system.",
+        "topic": "Garbage Collection: Python automatically manages memory using a garbage collection system to clean up objects that are no longer in use, freeing memory and preventing memory leaks.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nclass MyClass:\n    def __init__(self, x):\n        self.x = x\n    def __repr__(self):\n        return f'MyClass({self.x})'\n\nobj = MyClass(10)\nprint(repr(obj))\n```\n",
+        "options": ["MyClass(10)", "MyClass instance", "10", "Error"],
+        "answer": "MyClass(10)",
+        "topic": "Object Representation: The `__repr__` method in Python is used to define a more precise string representation of an object, which is useful for debugging and logging purposes.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\ny = x\nx = [4, 5, 6]\nprint(y)\n```\n",
+        "options": ["[4, 5, 6]", "[1, 2, 3]", "[1, 2, 3, 4, 5, 6]", "Error"],
+        "answer": "[1, 2, 3]",
+        "topic": "Variable Reassignment: Reassigning a variable to a new list creates a new object in memory, while the old list referenced by other variables remains unchanged.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following statements is true about Python's lambda functions?\n\n```python\n1. They can have multiple statements.\n2. They are used to create anonymous functions.\n3. They must have a name.\n4. They are slower than regular functions.\n```",
+        "options": ["They are used to create anonymous functions.", "They can have multiple statements.", "They must have a name.", "They are slower than regular functions."],
+        "answer": "They are used to create anonymous functions.",
+        "topic": "Lambda Functions: Lambda functions in Python are small, anonymous functions created using the `lambda` keyword, allowing for concise function definitions without requiring a full function name.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nfor i in x:\n    if i == 2:\n        continue\n    print(i)\n```\n",
+        "options": ["1 3", "1 2 3", "1", "1 2"],
+        "answer": "1 3",
+        "topic": "Control Flow: The `continue` statement in Python skips the rest of the code inside the loop for the current iteration and proceeds with the next iteration, altering loop behavior.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nimport math\nprint(math.sqrt(16))\n```\n",
+        "options": ["4.0", "16.0", "8.0", "Error"],
+        "answer": "4.0",
+        "topic": "Math Module: The `math` module in Python provides mathematical functions, such as `sqrt()` for calculating the square root, enabling complex mathematical operations.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `with` statement in Python?\n\n```python\nwith open('file.txt', 'r') as file:\n    content = file.read()\n```\n",
+        "options": ["To ensure proper resource management", "To define a new function", "To create a new class", "To handle exceptions"],
+        "answer": "To ensure proper resource management",
+        "topic": "Context Managers: The `with` statement in Python simplifies resource management by automatically handling setup and cleanup, such as opening and closing files, using context managers.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = {1, 2, 3}\nprint(x.union({3, 4, 5}))\n```\n",
+        "options": ["{1, 2, 3, 4, 5}", "{1, 2, 3}", "{3, 4, 5}", "Error"],
+        "answer": "{1, 2, 3, 4, 5}",
+        "topic": "Set Operations: The `union()` method in Python combines elements from multiple sets into a new set containing all unique elements from the sets involved.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `__init__.py` file in a Python package?\n\n```python\n1. To initialize the package\n2. To define global variables\n3. To create a module\n4. To handle package imports\n```",
+        "options": ["To initialize the package", "To define global variables", "To create a module", "To handle package imports"],
+        "answer": "To initialize the package",
+        "topic": "Package Initialization: The `__init__.py` file is used to initialize a Python package, allowing for the inclusion of package initialization code and making directories importable as packages.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\ny = [1, 2, 3]\nprint(x == y)\nprint(x is y)\n```\n",
+        "options": ["True True", "True False", "False True", "False False"],
+        "answer": "True False",
+        "topic": "Equality vs. Identity: The `==` operator checks for value equality while the `is` operator checks for object identity. Even if two lists have the same values, they may not be the same object.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nprint(x[-1])\n```\n",
+        "options": ["3", "1", "Error", "None"],
+        "answer": "3",
+        "topic": "Negative Indexing: Negative indexing in Python allows access to elements from the end of a sequence, with `-1` referring to the last element, `-2` to the second last, and so on.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = {1: 'one', 2: 'two'}\nprint(x.get(3, 'default'))\n```\n",
+        "options": ["'default'", "'three'", "'None'", "'default'"],
+        "answer": "'default'",
+        "topic": "Dictionary Method: The `get()` method in Python dictionaries returns the value for a specified key if it exists, or a default value if the key is not found, avoiding potential errors.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = {1, 2, 3}\nprint(x.add(4))\nprint(x)\n```\n",
+        "options": ["None {1, 2, 3, 4}", "{1, 2, 3, 4} None", "None {4}", "Error"],
+        "answer": "None {1, 2, 3, 4}",
+        "topic": "Set Methods: The `add()` method in Python adds an element to a set and returns `None`, as sets are mutable collections with no return value for their modifying methods.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of the following Python code snippet?\n\n```python\nx = 'Python'\ny = 'Python'\nprint(id(x) == id(y))\n```\n",
+        "options": ["True", "False", "Error", "None"],
+        "answer": "True",
+        "topic": "String Interning: Python often interns immutable objects like strings, meaning identical strings share the same memory location, resulting in equal `id()` values.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following statements is true about Python's list comprehension?\n\n```python\n1. It allows creating lists based on existing lists.\n2. It can only be used with numeric data.\n3. It requires the use of a loop inside the list.\n4. It cannot include conditional statements.\n```",
+        "options": ["It allows creating lists based on existing lists.", "It can only be used with numeric data.", "It requires the use of a loop inside the list.", "It cannot include conditional statements."],
+        "answer": "It allows creating lists based on existing lists.",
+        "topic": "List Comprehensions: List comprehensions in Python provide a concise way to create lists based on existing lists or other iterables, potentially including loops and conditional expressions.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\nx.extend([4, 5])\nprint(x)\n```\n",
+        "options": ["[1, 2, 3, 4, 5]", "[1, 2, 3, [4, 5]]", "[1, 2, 3] [4, 5]", "Error"],
+        "answer": "[1, 2, 3, 4, 5]",
+        "topic": "List Methods: The `extend()` method in Python appends elements from an iterable to the end of a list, modifying the original list in place by concatenating additional elements.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following Python code snippet?\n\n```python\nx = [1, 2, 3]\ny = [4, 5, 6]\nz = x + y\nprint(z)\n```\n",
+        "options": ["[1, 2, 3, 4, 5, 6]", "[4, 5, 6, 1, 2, 3]", "[1, 2, 3] [4, 5, 6]", "Error"],
+        "answer": "[1, 2, 3, 4, 5, 6]",
+        "topic": "List Concatenation: The `+` operator in Python concatenates two lists, creating a new list that contains elements from both lists in the order they are combined.",
+        "difficulty": "Basic"
+    }
+]
+

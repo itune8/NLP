@@ -1,0 +1,908 @@
+[
+    
+    {
+        "question": "What is the default value of a boolean variable in Java?",
+        "options": ["true", "false", "0", "null"],
+        "answer": "false",
+        "topic": "Default Values",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which method is used to start a thread execution in Java?",
+        "options": ["run()", "start()", "execute()", "begin()"],
+        "answer": "start()",
+        "topic": "Threads",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does JVM stand for?",
+        "options": ["Java Virtual Machine", "Java Variable Machine", "Java Visible Machine", "Java Virtual Memory"],
+        "answer": "Java Virtual Machine",
+        "topic": "Java Basics",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code: System.out.println(5 / 2);?",
+        "options": ["2", "2.5", "3", "2.0"],
+        "answer": "2",
+        "topic": "Data Types",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is not a Java keyword?",
+        "options": ["class", "interface", "enum", "package"],
+        "answer": "package",
+        "topic": "Keywords",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code: System.out.println(\"Java\".charAt(0));?",
+        "options": ["J", "a", "v", "null"],
+        "answer": "J",
+        "topic": "Strings",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `5 == 5.0` in Java?",
+        "options": ["true", "false", "compiler error", "runtime error"],
+        "answer": "true",
+        "topic": "Comparisons",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which loop is guaranteed to execute at least once?",
+        "options": ["for loop", "while loop", "do-while loop", "if-else loop"],
+        "answer": "do-while loop",
+        "topic": "Loops",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `break` statement in Java?",
+        "options": ["To terminate a loop or switch statement", "To exit a method", "To skip the current iteration of a loop", "To jump to a specified label"],
+        "answer": "To terminate a loop or switch statement",
+        "topic": "Flow Control",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which exception is thrown by the Java Virtual Machine (JVM) when an attempt is made to divide a number by zero?",
+        "options": ["ArithmeticException", "NullPointerException", "NumberFormatException", "IndexOutOfBoundsException"],
+        "answer": "ArithmeticException",
+        "topic": "Exceptions",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you declare an array in Java?",
+        "options": ["int[] arr;", "array<int> arr;", "arr<int>;", "int arr[];"],
+        "answer": "int[] arr;",
+        "topic": "Arrays",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the size of an `int` in Java?",
+        "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+        "answer": "32 bits",
+        "topic": "Data Types",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the default value of an integer variable in Java?",
+        "options": ["0", "null", "1", "-1"],
+        "answer": "0",
+        "topic": "Default Values",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you create a new instance of a class in Java?",
+        "options": ["ClassName obj = new ClassName();", "ClassName obj = ClassName();", "ClassName obj = ClassName.new();", "new ClassName obj;"],
+        "answer": "ClassName obj = new ClassName();",
+        "topic": "Object Creation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `return` statement in a method?",
+        "options": ["To exit a method", "To return a value from a method", "To pass a value to another method", "To break out of a loop"],
+        "answer": "To return a value from a method",
+        "topic": "Methods",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following data types is not a primitive data type in Java?",
+        "options": ["int", "float", "String", "char"],
+        "answer": "String",
+        "topic": "Data Types",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you specify a block of code to be executed when an exception is thrown?",
+        "options": ["try-catch block", "try-finally block", "catch-finally block", "throw-catch block"],
+        "answer": "try-catch block",
+        "topic": "Exception Handling",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does `public static void main(String[] args)` signify in Java?",
+        "options": ["Entry point of the application", "A method that returns an integer", "A private method", "A method for error handling"],
+        "answer": "Entry point of the application",
+        "topic": "Main Method",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How can you comment out a single line in Java?",
+        "options": ["// Comment", "/* Comment */", "# Comment", "<!-- Comment -->"],
+        "answer": "// Comment",
+        "topic": "Comments",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What keyword is used to prevent method overriding?",
+        "options": ["final", "static", "abstract", "private"],
+        "answer": "final",
+        "topic": "Method Modifiers",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the default value of a `char` variable in Java?",
+        "options": ["'0'", "'null'", "'\u0000'", "' '"],
+        "answer": "'\u0000'",
+        "topic": "Default Values",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you declare a constant in Java?",
+        "options": ["final int CONSTANT = 10;", "const int CONSTANT = 10;", "int CONSTANT = final 10;", "int final CONSTANT = 10;"],
+        "answer": "final int CONSTANT = 10;",
+        "topic": "Constants",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which access modifier allows access within the same package?",
+        "options": ["private", "protected", "default", "public"],
+        "answer": "default",
+        "topic": "Access Modifiers",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `!true` in Java?",
+        "options": ["true", "false", "compiler error", "runtime error"],
+        "answer": "false",
+        "topic": "Logical Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which class is the parent of all Java classes?",
+        "options": ["Object", "Class", "Base", "Root"],
+        "answer": "Object",
+        "topic": "Inheritance",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you concatenate two strings in Java?",
+        "options": ["string1 + string2", "string1.concat(string2)", "string1.append(string2)", "Both A and B"],
+        "answer": "Both A and B",
+        "topic": "String Manipulation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the use of `this` keyword in Java?",
+        "options": ["To refer to the current object", "To create a new object", "To refer to a static variable", "To call a static method"],
+        "answer": "To refer to the current object",
+        "topic": "Object Reference",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `super` keyword in Java?",
+        "options": ["To call a parent class method", "To access private variables", "To create an instance of the superclass", "To override a superclass method"],
+        "answer": "To call a parent class method",
+        "topic": "Inheritance",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which operator is used to compare two values in Java?",
+        "options": ["==", "=", "><", "==="],
+        "answer": "==",
+        "topic": "Comparisons",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `System.out.println(10 % 3);`?",
+        "options": ["1", "3", "7", "10"],
+        "answer": "1",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which method of `java.lang.Math` class is used to find the square root of a number?",
+        "options": ["sqrt()", "squareRoot()", "root()", "pow()"],
+        "answer": "sqrt()",
+        "topic": "Math Library",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you handle multiple exceptions in a single `catch` block?",
+        "options": ["By using multi-catch block (|)", "By using multiple `catch` blocks", "By using a single `catch` block with `throws` clause", "By using nested `try-catch` blocks"],
+        "answer": "By using multi-catch block (|)",
+        "topic": "Exception Handling",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the correct way to declare an array in Java?",
+        "options": ["int[] arr;", "int arr[];", "Both A and B", "None of the above"],
+        "answer": "Both A and B",
+        "topic": "Arrays",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following statements is correct about Java's `String` class?",
+        "options": ["Strings are immutable", "Strings are mutable", "Strings are synchronized", "Strings are variable"],
+        "answer": "Strings are immutable",
+        "topic": "Strings",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the range of the `int` data type in Java?",
+        "options": ["-2^31 to 2^31-1", "-2^15 to 2^15-1", "0 to 2^31-1", "-2^63 to 2^63-1"],
+        "answer": "-2^31 to 2^31-1",
+        "topic": "Data Types",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": ["extends", "implements", "inherits", "super"],
+        "answer": "extends",
+        "topic": "Inheritance",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `3 + 4 + \"Java\"`?",
+        "options": ["7Java", "Java7", "Java", "34Java"],
+        "answer": "7Java",
+        "topic": "String Concatenation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of these operators is used to access members of a class in Java?",
+        "options": [".", "::", "->", "&"],
+        "answer": ".",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does `System.out.println(\"Hello, World!\");` do?",
+        "options": ["Prints Hello, World! to the console", "Writes Hello, World! to a file", "Displays a dialog box with Hello, World!", "None of the above"],
+        "answer": "Prints Hello, World! to the console",
+        "topic": "Output",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is not a valid variable name in Java?",
+        "options": ["_varName", "$varName", "var Name", "varName"],
+        "answer": "var Name",
+        "topic": "Identifiers",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you convert a `String` to an `int` in Java?",
+        "options": ["Integer.parseInt(string)", "String.toInt()", "Integer.valueOf(string)", "int(string)"],
+        "answer": "Integer.parseInt(string)",
+        "topic": "Type Conversion",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of `System.out.println(3 + 2 * 2);`?",
+        "options": ["7", "10", "8", "6"],
+        "answer": "7",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is an incorrect statement about Java classes?",
+        "options": ["A class can extend only one class.", "A class can implement multiple interfaces.", "A class can be abstract or concrete.", "A class can be final and abstract at the same time."],
+        "answer": "A class can be final and abstract at the same time.",
+        "topic": "Classes",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which method must be implemented by all threads?",
+        "options": ["run()", "start()", "execute()", "begin()"],
+        "answer": "run()",
+        "topic": "Threads",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you declare a method that does not return any value?",
+        "options": ["void methodName()", "return methodName()", "void methodName; ", "methodName()"],
+        "answer": "void methodName()",
+        "topic": "Methods",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is used to handle multiple exceptions?",
+        "options": ["Multi-catch block", "Nested try-catch", "Throw keyword", "Throw block"],
+        "answer": "Multi-catch block",
+        "topic": "Exception Handling",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you create a constant in Java?",
+        "options": ["final int CONSTANT = 10;", "int CONSTANT = 10;", "const int CONSTANT = 10;", "int final CONSTANT = 10;"],
+        "answer": "final int CONSTANT = 10;",
+        "topic": "Constants",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the keyword `synchronized` used for?",
+        "options": ["To handle thread synchronization", "To synchronize data with database", "To make methods private", "To make classes abstract"],
+        "answer": "To handle thread synchronization",
+        "topic": "Concurrency",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is not a valid access modifier in Java?",
+        "options": ["public", "protected", "private", "local"],
+        "answer": "local",
+        "topic": "Access Modifiers",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which method is used to obtain the length of an array?",
+        "options": ["length", "size", "getLength", "length()"],
+        "answer": "length",
+        "topic": "Arrays",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `System.out.println(1 + 2 + \"Java\");`?",
+        "options": ["3 Java", "Java3", "12 Java", "Java12"],
+        "answer": "3 Java",
+        "topic": "String Concatenation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the use of `import` keyword in Java?",
+        "options": ["To include classes from other packages", "To define a class", "To declare a method", "To create an instance of a class"],
+        "answer": "To include classes from other packages",
+        "topic": "Packages",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you declare a class in Java?",
+        "options": ["class ClassName {}", "Class ClassName {}", "public Class ClassName {}", "declare class ClassName {}"],
+        "answer": "class ClassName {}",
+        "topic": "Classes",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `System.out.println(2 << 2);`?",
+        "options": ["4", "8", "2", "16"],
+        "answer": "8",
+        "topic": "Bitwise Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to define an interface in Java?",
+        "options": ["interface", "class", "abstract", "implements"],
+        "answer": "interface",
+        "topic": "Interfaces",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `3 * 2 + 1`?",
+        "options": ["7", "8", "5", "6"],
+        "answer": "7",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `System.out.println(\"Java\".toUpperCase());`?",
+        "options": ["JAVA", "java", "Java", "JAV"],
+        "answer": "JAVA",
+        "topic": "String Manipulation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which operator is used to check if two objects refer to the same instance?",
+        "options": ["==", "equals()", "is()", "instanceof"],
+        "answer": "==",
+        "topic": "Object Comparison",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of `super` keyword in Java?",
+        "options": ["To access parent class members", "To create a superclass", "To instantiate an object", "To access static variables"],
+        "answer": "To access parent class members",
+        "topic": "Inheritance",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you create an instance of a `Thread` class?",
+        "options": ["new Thread()", "Thread.new()", "Thread()", "new Thread().start()"],
+        "answer": "new Thread()",
+        "topic": "Threads",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the default value of a `float` variable in Java?",
+        "options": ["0.0", "0", "null", "undefined"],
+        "answer": "0.0",
+        "topic": "Default Values",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How can you declare a variable in Java?",
+        "options": ["int x;", "var x;", "declare int x;", "variable int x;"],
+        "answer": "int x;",
+        "topic": "Variables",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of these is not a valid method for handling exceptions in Java?",
+        "options": ["try-catch", "try-finally", "throw", "try-catch-finally"],
+        "answer": "throw",
+        "topic": "Exception Handling",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `static` keyword indicate in Java?",
+        "options": ["The method or variable belongs to the class, not instances", "The method or variable is synchronized", "The method or variable is private", "The method or variable is public"],
+        "answer": "The method or variable belongs to the class, not instances",
+        "topic": "Modifiers",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of these keywords is used to define a constant variable?",
+        "options": ["final", "static", "const", "immutable"],
+        "answer": "final",
+        "topic": "Modifiers",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which method is used to obtain the current time in milliseconds?",
+        "options": ["System.currentTimeMillis()", "Time.getCurrentMillis()", "Date.now()", "Time.current()"],
+        "answer": "System.currentTimeMillis()",
+        "topic": "Date and Time",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of `System.out.println(3 + 4 * 2);`?",
+        "options": ["14", "11", "7", "10"],
+        "answer": "11",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you add a comment to the code in Java?",
+        "options": ["// Comment", "/* Comment */", "# Comment", "<!-- Comment -->"],
+        "answer": "// Comment",
+        "topic": "Comments",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of these is used to create a new object in Java?",
+        "options": ["new", "create", "newInstance", "instance"],
+        "answer": "new",
+        "topic": "Object Creation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `System.out.println(\"Java\".length());`?",
+        "options": ["4", "5", "6", "7"],
+        "answer": "4",
+        "topic": "Strings",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of these methods is used to get the length of an array?",
+        "options": ["array.length", "array.size()", "array.getLength()", "array.length()"],
+        "answer": "array.length",
+        "topic": "Arrays",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is not a valid loop construct in Java?",
+        "options": ["for", "while", "do-while", "repeat"],
+        "answer": "repeat",
+        "topic": "Loops",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `default` keyword in an interface?",
+        "options": ["To define a default method implementation", "To declare a constant", "To specify a default constructor", "To enforce method implementation"],
+        "answer": "To define a default method implementation",
+        "topic": "Interfaces",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `10 / 3` in Java?",
+        "options": ["3", "3.0", "3.333", "4"],
+        "answer": "3",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the correct way to initialize an array in Java?",
+        "options": ["int[] arr = {1, 2, 3};", "int arr[] = {1, 2, 3};", "Both A and B", "None of the above"],
+        "answer": "Both A and B",
+        "topic": "Arrays",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which operator is used for logical AND in Java?",
+        "options": ["&&", "&", "||", "and"],
+        "answer": "&&",
+        "topic": "Logical Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you create a method that returns nothing?",
+        "options": ["void methodName()", "methodName()", "return methodName()", "methodName() returns void"],
+        "answer": "void methodName()",
+        "topic": "Methods",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to define a class?",
+        "options": ["class", "define", "object", "new"],
+        "answer": "class",
+        "topic": "Classes",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `5 + 3 * 2`?",
+        "options": ["16", "11", "10", "14"],
+        "answer": "11",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is a valid identifier in Java?",
+        "options": ["_myVariable", "my-Variable", "my Variable", "1myVariable"],
+        "answer": "_myVariable",
+        "topic": "Identifiers",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `abstract` keyword in Java?",
+        "options": ["To declare an abstract class or method", "To create an instance of a class", "To define a final method", "To specify an access modifier"],
+        "answer": "To declare an abstract class or method",
+        "topic": "Classes",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is a valid class declaration in Java?",
+        "options": ["class MyClass {}", "MyClass class {}", "public MyClass {}", "class MyClass () {}"],
+        "answer": "class MyClass {}",
+        "topic": "Classes",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `throws` keyword in Java?",
+        "options": ["To declare an exception that a method might throw", "To handle exceptions", "To throw an exception", "To create a custom exception"],
+        "answer": "To declare an exception that a method might throw",
+        "topic": "Exception Handling",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to declare a class that cannot be extended?",
+        "options": ["final", "static", "abstract", "private"],
+        "answer": "final",
+        "topic": "Classes",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you obtain a substring from a string in Java?",
+        "options": ["string.substring(startIndex, endIndex)", "string.slice(startIndex, endIndex)", "string.substring(startIndex)", "string.slice(startIndex)"],
+        "answer": "string.substring(startIndex, endIndex)",
+        "topic": "Strings",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `7 % 4` in Java?",
+        "options": ["3", "1", "7", "4"],
+        "answer": "3",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of the following is used to handle exceptions in Java?",
+        "options": ["try-catch", "try-finally", "throw-catch", "catch-throw"],
+        "answer": "try-catch",
+        "topic": "Exception Handling",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of these is a valid array declaration?",
+        "options": ["int[] arr;", "int arr[];", "Both A and B", "None of the above"],
+        "answer": "Both A and B",
+        "topic": "Arrays",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the default value of a `boolean` variable in Java?",
+        "options": ["true", "false", "0", "null"],
+        "answer": "false",
+        "topic": "Default Values",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `System.out.println(2 ^ 3);`?",
+        "options": ["1", "5", "6", "7"],
+        "answer": "1",
+        "topic": "Bitwise Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you define a constant in Java?",
+        "options": ["final int CONSTANT = 10;", "const int CONSTANT = 10;", "int CONSTANT = final 10;", "int CONSTANT = 10;"],
+        "answer": "final int CONSTANT = 10;",
+        "topic": "Constants",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will be the output of `System.out.println(\"Java\" + \"Programming\");`?",
+        "options": ["JavaProgramming", "Java Programming", "Java+Programming", "JavaProgramming "],
+        "answer": "JavaProgramming",
+        "topic": "String Concatenation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to create a new instance of a class?",
+        "options": ["new", "create", "instantiate", "object"],
+        "answer": "new",
+        "topic": "Object Creation",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you handle an exception thrown in Java?",
+        "options": ["try-catch block", "throws clause", "finally block", "catch-throw block"],
+        "answer": "try-catch block",
+        "topic": "Exception Handling",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `10 / 2` in Java?",
+        "options": ["5", "5.0", "10", "2"],
+        "answer": "5",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which of these is the correct way to define a method in Java?",
+        "options": ["void methodName() {}", "methodName() void {}", "void methodName {}", "methodName() {} void"],
+        "answer": "void methodName() {}",
+        "topic": "Methods",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `System.out.println(2 + 3 * 4);`?",
+        "options": ["14", "20", "24", "10"],
+        "answer": "14",
+        "topic": "Operators",
+        "difficulty": "Basic"
+    },
+
+    
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        int x = 5;\n        int y = 10;\n        System.out.println(x > y ? x : y);\n    }\n}\n```\n",
+        "options": ["5", "10", "0", "15"],
+        "answer": "10",
+        "topic": "Conditional (Ternary) Operator: This operator evaluates a boolean expression and returns one of two values based on the result. It is a concise way to perform an if-else condition.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        int result = 0;\n        for (int i = 0; i < 5; i++) {\n            result += i;\n        }\n        System.out.println(result);\n    }\n}\n```\n",
+        "options": ["5", "10", "15", "20"],
+        "answer": "10",
+        "topic": "For Loop: The for loop in Java allows for iteration over a range of values, with initialization, condition, and increment/decrement expressions, enabling repetitive execution of a block of code.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        String str = \"Hello, World!\";\n        System.out.println(str.substring(7, 12));\n    }\n}\n```\n",
+        "options": ["Hello", "World", "World!", "Hello, Wo"],
+        "answer": "World",
+        "topic": "String Substring: The substring method in Java returns a new string that is a substring of the given string, based on specified start and end indices, enabling extraction of specific parts of a string.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class Test {\n    public static void main(String[] args) {\n        List<String> list = new ArrayList<>();\n        list.add(\"A\");\n        list.add(\"B\");\n        list.add(\"C\");\n        list.remove(1);\n        System.out.println(list);\n    }\n}\n```\n",
+        "options": ["[A, B]", "[A, C]", "[B, C]", "[A, B, C]"],
+        "answer": "[A, C]",
+        "topic": "ArrayList: An ArrayList in Java is a resizable array implementation of the List interface, allowing elements to be dynamically added or removed, and accessed based on their index, providing flexibility over traditional arrays.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 2;\n        double result = a / (double) b;\n        System.out.println(result);\n    }\n}\n```\n",
+        "options": ["2", "2.5", "2.0", "3.0"],
+        "answer": "2.5",
+        "topic": "Type Casting: Type casting in Java allows a variable of one type to be converted to another type, enabling operations between different types and ensuring compatibility and precision during calculations.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        StringBuilder sb = new StringBuilder(\"Hello\");\n        sb.append(\", World!\");\n        System.out.println(sb.toString());\n    }\n}\n```\n",
+        "options": ["Hello", "Hello, World!", "World!", "Hello, "],
+        "answer": "Hello, World!",
+        "topic": "StringBuilder: StringBuilder in Java is a mutable sequence of characters, providing methods for string manipulation, such as append, insert, and delete, enabling efficient and flexible string operations.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        int sum = 0;\n        for (int num : arr) {\n            sum += num;\n        }\n        System.out.println(sum);\n    }\n}\n```\n",
+        "options": ["10", "15", "20", "25"],
+        "answer": "15",
+        "topic": "Enhanced For Loop: The enhanced for loop in Java, also known as the for-each loop, provides a simpler way to iterate over arrays and collections, improving code readability and reducing errors.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nimport java.util.HashMap;\nimport java.util.Map;\n\npublic class Test {\n    public static void main(String[] args) {\n        Map<String, Integer> map = new HashMap<>();\n        map.put(\"A\", 1);\n        map.put(\"B\", 2);\n        map.put(\"C\", 3);\n        System.out.println(map.get(\"B\"));\n    }\n}\n```\n",
+        "options": ["1", "2", "3", "null"],
+        "answer": "2",
+        "topic": "HashMap: A HashMap in Java is a collection class that implements the Map interface, providing a way to store key-value pairs, enabling fast retrieval, insertion, and deletion of elements based on their keys.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        int x = 5;\n        int y = 0;\n        try {\n            int result = x / y;\n        } catch (ArithmeticException e) {\n            System.out.println(\"Division by zero\");\n        }\n    }\n}\n```\n",
+        "options": ["0", "5", "Division by zero", "ArithmeticException"],
+        "answer": "Division by zero",
+        "topic": "Exception Handling: Exception handling in Java involves using try-catch blocks to manage runtime errors, ensuring that the program can handle exceptions gracefully without crashing.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        String str = \"Java\";\n        str = str.replace('a', 'o');\n        System.out.println(str);\n    }\n}\n```\n",
+        "options": ["Jovo", "Joaa", "Java", "Jova"],
+        "answer": "Jovo",
+        "topic": "String Replacement: The replace method in Java allows for the substitution of characters or sequences in a string, enabling flexible string modifications.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nimport java.util.HashSet;\nimport java.util.Set;\n\npublic class Test {\n    public static void main(String[] args) {\n        Set<String> set = new HashSet<>();\n        set.add(\"A\");\n        set.add(\"B\");\n        set.add(\"A\");\n        System.out.println(set.size());\n    }\n}\n```\n",
+        "options": ["1", "2", "3", "4"],
+        "answer": "2",
+        "topic": "HashSet: A HashSet in Java is a collection that does not allow duplicate elements and provides constant time complexity for basic operations such as add, remove, and contains.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        String s1 = \"Hello\";\n        String s2 = \"Hello\";\n        System.out.println(s1 == s2);\n    }\n}\n```\n",
+        "options": ["true", "false", "null", "compilation error"],
+        "answer": "true",
+        "topic": "String Pool: In Java, the string pool is a special memory region where string literals are stored. When two string literals are the same, they refer to the same object in the string pool, leading to optimization and memory savings.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        String s1 = new String(\"Hello\");\n        String s2 = \"Hello\";\n        System.out.println(s1 == s2);\n    }\n}\n```\n",
+        "options": ["true", "false", "null", "compilation error"],
+        "answer": "false",
+        "topic": "String Comparison: Using the '==' operator compares object references, not the actual content of the strings. For string content comparison, the equals() method should be used.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 2;\n        int result = a / b;\n        System.out.println(result);\n    }\n}\n```\n",
+        "options": ["2.5", "2", "2.0", "3"],
+        "answer": "2",
+        "topic": "Integer Division: In Java, dividing two integers results in an integer. Any fractional part is discarded, and the result is truncated towards zero.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class Test {\n    public static void main(String[] args) {\n        List<Integer> list = new ArrayList<>();\n        list.add(1);\n        list.add(2);\n        list.add(3);\n        System.out.println(list.get(1));\n    }\n}\n```\n",
+        "options": ["1", "2", "3", "IndexOutOfBoundsException"],
+        "answer": "2",
+        "topic": "ArrayList Indexing: The get method of an ArrayList returns the element at the specified position in the list, allowing for efficient random access.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        String str1 = \"abc\";\n        String str2 = new String(\"abc\");\n        System.out.println(str1.equals(str2));\n    }\n}\n```\n",
+        "options": ["true", "false", "null", "compilation error"],
+        "answer": "true",
+        "topic": "String Equality: The equals method in Java is used to compare the content of two strings, ensuring value-based comparison rather than reference-based.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        String str = null;\n        try {\n            System.out.println(str.length());\n        } catch (NullPointerException e) {\n            System.out.println(\"Null pointer exception\");\n        }\n    }\n}\n```\n",
+        "options": ["0", "Null pointer exception", "null", "compilation error"],
+        "answer": "Null pointer exception",
+        "topic": "Null Pointer Exception: In Java, a NullPointerException is thrown when an application attempts to use an object reference that has not been initialized (null), indicating an attempt to access or modify an object that does not exist.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nimport java.util.Arrays;\n\npublic class Test {\n    public static void main(String[] args) {\n        int[] arr = {3, 1, 4, 1, 5};\n        Arrays.sort(arr);\n        System.out.println(Arrays.toString(arr));\n    }\n}\n```\n",
+        "options": ["[3, 1, 4, 1, 5]", "[1, 1, 3, 4, 5]", "[5, 4, 3, 1, 1]", "[1, 3, 4, 5, 1]"],
+        "answer": "[1, 1, 3, 4, 5]",
+        "topic": "Arrays: The Arrays class in Java provides utility methods for manipulating arrays, such as sorting and searching, enabling efficient and convenient operations on array data structures.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nimport java.util.HashMap;\nimport java.util.Map;\n\npublic class Test {\n    public static void main(String[] args) {\n        Map<String, String> map = new HashMap<>();\n        map.put(\"A\", \"Apple\");\n        map.put(\"B\", \"Banana\");\n        System.out.println(map.containsKey(\"C\"));\n    }\n}\n```\n",
+        "options": ["true", "false", "null", "compilation error"],
+        "answer": "false",
+        "topic": "HashMap containsKey: The containsKey method of a HashMap checks whether the map contains a mapping for the specified key, returning true if the key is present and false otherwise.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nclass Animal {\n    public void sound() {\n        System.out.println(\"Animal makes a sound\");\n    }\n}\n\nclass Dog extends Animal {\n    public void sound() {\n        System.out.println(\"Dog barks\");\n    }\n}\n\npublic class Test {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.sound();\n    }\n}\n```\n",
+        "options": ["Animal makes a sound", "Dog barks", "Compilation error", "Runtime error"],
+        "answer": "Dog barks",
+        "topic": "Polymorphism: Polymorphism in Java allows a subclass to provide a specific implementation of a method that is already defined in its superclass, enabling dynamic method binding at runtime.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nclass Base {\n    public void display() {\n        System.out.println(\"Base display\");\n    }\n}\n\nclass Derived extends Base {\n    public void display() {\n        System.out.println(\"Derived display\");\n    }\n}\n\npublic class Test {\n    public static void main(String[] args) {\n        Base b = new Derived();\n        b.display();\n    }\n}\n```\n",
+        "options": ["Base display", "Derived display", "Compilation error", "Runtime error"],
+        "answer": "Derived display",
+        "topic": "Method Overriding: Method overriding in Java occurs when a subclass provides a specific implementation of a method already defined in its superclass, enabling dynamic polymorphism.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\ninterface A {\n    void method1();\n    default void method2() {\n        System.out.println(\"A's method2\");\n    }\n}\n\nclass B implements A {\n    public void method1() {\n        System.out.println(\"B's method1\");\n    }\n}\n\npublic class Test {\n    public static void main(String[] args) {\n        B b = new B();\n        b.method1();\n        b.method2();\n    }\n}\n```\n",
+        "options": ["B's method1\nB's method2", "B's method1\nA's method2", "A's method1\nB's method2", "A's method1\nA's method2"],
+        "answer": "B's method1\nA's method2",
+        "topic": "Default Methods in Interfaces: Default methods in Java interfaces allow the addition of new methods to interfaces without breaking the existing implementations, providing a default implementation that can be overridden by implementing classes.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        int[] arr = new int[5];\n        arr[0] = 10;\n        arr[1] = 20;\n        arr[2] = 30;\n        arr[3] = 40;\n        arr[4] = 50;\n        System.out.println(arr[2]);\n    }\n}\n```\n",
+        "options": ["10", "20", "30", "40"],
+        "answer": "30",
+        "topic": "Array Initialization: In Java, arrays are initialized with a fixed size, and elements can be assigned values based on their indices, providing a way to store multiple values of the same type in a single variable.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nabstract class Animal {\n    abstract void makeSound();\n}\n\nclass Dog extends Animal {\n    void makeSound() {\n        System.out.println(\"Bark\");\n    }\n}\n\npublic class Test {\n    public static void main(String[] args) {\n        Animal a = new Dog();\n        a.makeSound();\n    }\n}\n```\n",
+        "options": ["Animal makes a sound", "Dog barks", "Bark", "Compilation error"],
+        "answer": "Bark",
+        "topic": "Abstract Classes: Abstract classes in Java cannot be instantiated and are used to declare common characteristics of subclasses. Subclasses must provide implementations for the abstract methods defined in the abstract class.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nclass Test {\n    static int a = 10;\n    static int b;\n    static void func(int x) {\n        System.out.println(\"x = \" + x);\n        System.out.println(\"a = \" + a);\n        System.out.println(\"b = \" + b);\n    }\n    static {\n        System.out.println(\"Static block initialized.\");\n        b = a * 4;\n    }\n    public static void main(String[] args) {\n        func(42);\n    }\n}\n```\n",
+        "options": ["Static block initialized.\nx = 42\na = 10\nb = 0", "x = 42\na = 10\nb = 40", "Static block initialized.\nx = 42\na = 10\nb = 40", "x = 42\na = 10\nb = 0"],
+        "answer": "Static block initialized.\nx = 42\na = 10\nb = 40",
+        "topic": "Static Block: A static block in Java is used for static initialization of a class, executed when the class is first loaded, before any static fields or methods are accessed.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nclass Test {\n    public static void main(String[] args) {\n        int a = 5;\n        int b = 10;\n        int c = 15;\n        int result = (a + b) * c / (a - b);\n        System.out.println(result);\n    }\n}\n```\n",
+        "options": ["25", "37", "-37", "-25"],
+        "answer": "-37",
+        "topic": "Operator Precedence: Operator precedence in Java determines the order in which operations are performed in an expression, ensuring correct calculation based on the precedence and associativity of operators.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\ninterface A {\n    void method1();\n}\n\ninterface B {\n    void method2();\n}\n\nclass C implements A, B {\n    public void method1() {\n        System.out.println(\"Method1\");\n    }\n    public void method2() {\n        System.out.println(\"Method2\");\n    }\n}\n\npublic class Test {\n    public static void main(String[] args) {\n        C obj = new C();\n        obj.method1();\n        obj.method2();\n    }\n}\n```\n",
+        "options": ["Method1\nMethod2", "Method2\nMethod1", "Method1\nnull", "Method2\nnull"],
+        "answer": "Method1\nMethod2",
+        "topic": "Multiple Inheritance via Interfaces: In Java, a class can implement multiple interfaces, allowing it to inherit and provide implementations for the methods declared in those interfaces.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        String s = \"Java\";\n        s = s.concat(\" Programming\");\n        System.out.println(s);\n    }\n}\n```\n",
+        "options": ["Java Programming", "Java", "Programming", "null"],
+        "answer": "Java Programming",
+        "topic": "String Immutability: Strings in Java are immutable, meaning their values cannot be changed once created. Any modification to a string results in the creation of a new string object.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nclass Outer {\n    private int data = 30;\n    class Inner {\n        void msg() {\n            System.out.println(\"data is \" + data);\n        }\n    }\n}\n\npublic class Test {\n    public static void main(String[] args) {\n        Outer o = new Outer();\n        Outer.Inner i = o.new Inner();\n        i.msg();\n    }\n}\n```\n",
+        "options": ["data is 30", "data is 0", "null", "compilation error"],
+        "answer": "data is 30",
+        "topic": "Inner Classes: Inner classes in Java are defined within another class. They have access to the members of the outer class, including private members, providing a logical grouping and better encapsulation.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\npublic class Test {\n    public static void main(String[] args) {\n        try {\n            int[] arr = new int[5];\n            arr[10] = 50;\n        } catch (ArrayIndexOutOfBoundsException e) {\n            System.out.println(\"Array Index Out of Bounds\");\n        }\n    }\n}\n```\n",
+        "options": ["Array Index Out of Bounds", "50", "0", "compilation error"],
+        "answer": "Array Index Out of Bounds",
+        "topic": "Array Index Out of Bounds Exception: This exception is thrown in Java when an attempt is made to access an array element with an invalid index, indicating that the index is either negative or greater than the array's length.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nclass Test {\n    public static void main(String[] args) {\n        String str = \"Welcome\";\n        str = str.concat(\" to Java\");\n        System.out.println(str);\n    }\n}\n```\n",
+        "options": ["Welcome", "Welcome to Java", "to Java", "null"],
+        "answer": "Welcome to Java",
+        "topic": "String Concatenation: String concatenation in Java combines two or more strings into a single string, creating a new string object as strings are immutable in Java.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will be the output of the following Java code snippet?\n\n```java\nclass Test {\n    public static void main(String[] args) {\n        int x = 5;\n        int y = 10;\n        int z = 15;\n        if (x < y && y < z) {\n            System.out.println(\"x < y < z\");\n        } else {\n            System.out.println(\"Condition not met\");\n        }\n    }\n}\n```\n",
+        "options": ["x < y < z", "Condition not met", "x < y", "y < z"],
+        "answer": "x < y < z",
+        "topic": "Logical AND Operator: The logical AND operator (&&) in Java is used to combine multiple boolean expressions. It returns true if and only if all the expressions are true, enabling complex conditional checks.",
+        "difficulty": "Intermediate"
+    }
+]

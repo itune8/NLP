@@ -1,0 +1,425 @@
+[
+    {
+        "question": "Which HTML tag is used to define a paragraph?",
+        "options": ["<p>", "<para>", "<text>", "<paragraph>"],
+        "answer": "<p>",
+        "topic": "Paragraphs: The `<p>` tag is used to define a paragraph in HTML, which automatically adds space before and after the text.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `<title>` tag define in an HTML document?",
+        "options": ["The title of the document displayed in the browser's title bar", "The main heading of the document", "The color of the document", "The font size of the document"],
+        "answer": "The title of the document displayed in the browser's title bar",
+        "topic": "Document Metadata: The `<title>` tag specifies the title of the HTML document, which appears in the browser's title bar or tab.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which tag is used to define an unordered list?",
+        "options": ["<ul>", "<ol>", "<list>", "<dl>"],
+        "answer": "<ul>",
+        "topic": "Lists: The `<ul>` tag is used to create an unordered list, where list items are typically marked with bullet points.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you create a link to another webpage in HTML?",
+        "options": ["<a href='url'>Link</a>", "<link href='url'>Link</link>", "<url>Link</url>", "<a src='url'>Link</a>"],
+        "answer": "<a href='url'>Link</a>",
+        "topic": "Hyperlinks: The `<a>` tag with the `href` attribute creates a hyperlink to another webpage or resource.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `<meta>` tag in the `<head>` section?",
+        "options": ["To provide metadata about the HTML document", "To define the main content", "To create a header", "To include an image"],
+        "answer": "To provide metadata about the HTML document",
+        "topic": "Metadata: The `<meta>` tag is used to provide metadata such as character encoding, viewport settings, and author information.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which tag is used to define a table in HTML?",
+        "options": ["<table>", "<tbl>", "<tab>", "<tabled>"],
+        "answer": "<table>",
+        "topic": "Tables: The `<table>` tag is used to create a table structure in HTML, with rows and columns for organizing data.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the function of the `<th>` tag in an HTML table?",
+        "options": ["Defines a table header cell", "Defines a table data cell", "Defines a table row", "Defines a table caption"],
+        "answer": "Defines a table header cell",
+        "topic": "Tables: The `<th>` tag defines a header cell in a table, typically rendered in bold and centered by default.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you insert an image in HTML?",
+        "options": ["<img src='url' alt='description'>", "<image src='url' alt='description'>", "<picture src='url' alt='description'>", "<photo src='url' alt='description'>"],
+        "answer": "<img src='url' alt='description'>",
+        "topic": "Images: The `<img>` tag is used to embed images in an HTML document, with `src` specifying the image URL and `alt` providing alternative text.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `alt` attribute in an `<img>` tag specify?",
+        "options": ["Alternative text for the image", "The image width", "The image height", "The image source"],
+        "answer": "Alternative text for the image",
+        "topic": "Image Attributes: The `alt` attribute provides alternative text that describes the image, which is useful for accessibility and when images cannot be displayed.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which HTML tag is used to define a form?",
+        "options": ["<form>", "<input>", "<fieldset>", "<formdata>"],
+        "answer": "<form>",
+        "topic": "Forms: The `<form>` tag is used to create an HTML form that collects user input and submits it to a server.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you include a JavaScript file in an HTML document?",
+        "options": ["<script src='file.js'></script>", "<js src='file.js'></js>", "<script href='file.js'></script>", "<link src='file.js'>"],
+        "answer": "<script src='file.js'></script>",
+        "topic": "JavaScript Integration: The `<script>` tag with the `src` attribute links an external JavaScript file to the HTML document.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which tag is used to define a hyperlink that opens in a new tab?",
+        "options": ["<a target='_blank' href='url'>Link</a>", "<a target='_self' href='url'>Link</a>", "<a target='_new' href='url'>Link</a>", "<a href='url' target='_tab'>Link</a>"],
+        "answer": "<a target='_blank' href='url'>Link</a>",
+        "topic": "Link Targeting: The `target='_blank'` attribute in the `<a>` tag opens the link in a new tab or window.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `<footer>` tag represent in HTML5?",
+        "options": ["The footer section of a document or section", "The header section of a document or section", "The main content area", "The navigation section"],
+        "answer": "The footer section of a document or section",
+        "topic": "HTML5 Semantics: The `<footer>` tag is used to define the footer for a document or section, often containing metadata, copyright information, or contact links.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which tag is used to define a section of navigation links?",
+        "options": ["<nav>", "<menu>", "<sidebar>", "<links>"],
+        "answer": "<nav>",
+        "topic": "Navigation: The `<nav>` tag is used to group navigation links and define a section for navigation in HTML5.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `<div>` tag in HTML?",
+        "options": ["To define a division or section in a document", "To create a table", "To define a header", "To insert an image"],
+        "answer": "To define a division or section in a document",
+        "topic": "Generic Containers: The `<div>` tag is used as a generic container for grouping and styling sections of content.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which HTML tag is used to define a definition list?",
+        "options": ["<dl>", "<list>", "<def>", "<description>"],
+        "answer": "<dl>",
+        "topic": "Definition Lists: The `<dl>` tag is used to create a definition list with `<dt>` for terms and `<dd>` for definitions.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you specify the character encoding for an HTML document?",
+        "options": ["<meta charset='UTF-8'>", "<meta encoding='UTF-8'>", "<meta type='UTF-8'>", "<meta content='UTF-8'>"],
+        "answer": "<meta charset='UTF-8'>",
+        "topic": "Character Encoding: The `<meta charset='UTF-8'>` tag specifies the character encoding for the HTML document to ensure proper text rendering.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which tag is used to define a block-level element in HTML?",
+        "options": ["<div>", "<span>", "<a>", "<img>"],
+        "answer": "<div>",
+        "topic": "Block-Level Elements: The `<div>` tag is a block-level element that starts on a new line and occupies the full width available.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the correct HTML tag to define a strong emphasis on text?",
+        "options": ["<strong>", "<em>", "<b>", "<i>"],
+        "answer": "<strong>",
+        "topic": "Text Formatting: The `<strong>` tag is used to give text strong emphasis, usually rendered in bold.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which HTML element is used to define the main content of a document?",
+        "options": ["<main>", "<content>", "<body>", "<section>"],
+        "answer": "<main>",
+        "topic": "HTML5 Semantics: The `<main>` element represents the primary content of the document, excluding headers, footers, and sidebars.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `<span>` tag do in HTML?",
+        "options": ["Defines an inline section", "Defines a block-level section", "Defines a list item", "Defines a table cell"],
+        "answer": "Defines an inline section",
+        "topic": "Inline Elements: The `<span>` tag is an inline container used for styling small portions of text or content within a line.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which HTML attribute specifies the style of an element?",
+        "options": ["style", "class", "id", "type"],
+        "answer": "style",
+        "topic": "Inline Styles: The `style` attribute applies CSS styles directly to an HTML element.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `<iframe>` tag do?",
+        "options": ["Defines an inline frame", "Defines a frame for images", "Defines a form", "Defines a section"],
+        "answer": "Defines an inline frame",
+        "topic": "Frames: The `<iframe>` tag is used to embed another HTML document within the current document.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the correct HTML tag to define a comment?",
+        "options": ["<!-- comment -->", "<comment>", "<-- comment -->", "<# comment #>"],
+        "answer": "<!-- comment -->",
+        "topic": "Comments: HTML comments are written between `<!--` and `-->` and are not displayed in the browser.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which tag is used to define a section of content in HTML5?",
+        "options": ["<section>", "<article>", "<div>", "<group>"],
+        "answer": "<section>",
+        "topic": "HTML5 Semantics: The `<section>` tag is used to define a thematic grouping of content, typically with its own heading.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define a table row in HTML?",
+        "options": ["<tr>", "<row>", "<table>", "<td>"],
+        "answer": "<tr>",
+        "topic": "Tables: The `<tr>` tag defines a row within a table, containing table data or header cells.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `href` attribute do in an anchor tag?",
+        "options": ["Specifies the URL of the page the link goes to", "Specifies the link's color", "Specifies the link's text", "Specifies the link's target"],
+        "answer": "Specifies the URL of the page the link goes to",
+        "topic": "Hyperlinks: The `href` attribute in an `<a>` tag defines the URL or location of the linked page or resource.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which tag is used to define a form control for user input?",
+        "options": ["<input>", "<form>", "<button>", "<control>"],
+        "answer": "<input>",
+        "topic": "Forms: The `<input>` tag is used to create various types of input controls for user data collection.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `target` attribute in a link element control?",
+        "options": ["The browsing context where the link opens", "The link's color", "The link's size", "The link's text"],
+        "answer": "The browsing context where the link opens",
+        "topic": "Link Targeting: The `target` attribute in the `<a>` tag specifies where to open the linked document (e.g., `_blank`, `_self`).",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `src` attribute in an `<img>` tag specify?",
+        "options": ["The URL of the image file", "The width of the image", "The height of the image", "The alt text of the image"],
+        "answer": "The URL of the image file",
+        "topic": "Images: The `src` attribute specifies the path or URL to the image file that should be displayed.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which HTML tag defines the title of a section or article?",
+        "options": ["<h1>", "<header>", "<title>", "<section>"],
+        "answer": "<header>",
+        "topic": "HTML5 Semantics: The `<header>` tag is used to define introductory content, including headings for sections or articles.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the function of the `<code>` tag?",
+        "options": ["To define a piece of computer code", "To create a table cell", "To define a paragraph", "To create a heading"],
+        "answer": "To define a piece of computer code",
+        "topic": "Code Formatting: The `<code>` tag is used to display a single line of computer code or programming language text.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which HTML tag is used to group related form elements?",
+        "options": ["<fieldset>", "<group>", "<section>", "<form>"],
+        "answer": "<fieldset>",
+        "topic": "Forms: The `<fieldset>` tag groups related form elements together and is often used with a `<legend>` tag to provide a caption.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you specify a stylesheet for an HTML document?",
+        "options": ["<link rel='stylesheet' href='style.css'>", "<style src='style.css'>", "<script rel='stylesheet' src='style.css'></script>", "<style href='style.css'>"],
+        "answer": "<link rel='stylesheet' href='style.css'>",
+        "topic": "CSS Integration: The `<link>` tag with `rel='stylesheet'` is used to include an external CSS file in an HTML document.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which HTML tag is used to define an inline style for an element?",
+        "options": ["<style>", "<css>", "<link>", "<span>"],
+        "answer": "<style>",
+        "topic": "Inline Styles: The `<style>` tag within the `<head>` section defines CSS rules for the entire document or specific elements.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `role` attribute in HTML define?",
+        "options": ["The semantic role of an element for accessibility", "The visual role of an element", "The ID of the element", "The style of the element"],
+        "answer": "The semantic role of an element for accessibility",
+        "topic": "Accessibility: The `role` attribute helps define the semantic role of an element, improving accessibility for users with assistive technologies.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "Which tag is used to include a video file in HTML5?",
+        "options": ["<video>", "<movie>", "<media>", "<film>"],
+        "answer": "<video>",
+        "topic": "Video Embedding: The `<video>` tag is used to embed video content in an HTML5 document, supporting various video formats.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `<label>` tag in HTML forms?",
+        "options": ["To define a label for a form control", "To create a submit button", "To define a section", "To group multiple inputs"],
+        "answer": "To define a label for a form control",
+        "topic": "Forms: The `<label>` tag is used to provide a label for form controls, improving accessibility and usability.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `placeholder` attribute do in an input field?",
+        "options": ["Provides a hint or example of the expected input", "Defines the default value", "Specifies the maximum length", "Sets the input type"],
+        "answer": "Provides a hint or example of the expected input",
+        "topic": "Forms: The `placeholder` attribute offers a hint or example text within an input field, which disappears when the user starts typing.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which tag is used to define a blockquote in HTML?",
+        "options": ["<blockquote>", "<quote>", "<cquote>", "<q>"],
+        "answer": "<blockquote>",
+        "topic": "Text Formatting: The `<blockquote>` tag is used to define a block of text that is a quotation from another source, often with indentation.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `action` attribute in an HTML form?",
+        "options": ["Specifies where to send the form data when submitted", "Defines the form's appearance", "Specifies the input types", "Defines the form's method"],
+        "answer": "Specifies where to send the form data when submitted",
+        "topic": "Forms: The `action` attribute in a `<form>` element defines the URL or server-side script where the form data will be sent upon submission.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which HTML element is used to define a hyperlink to an email address?",
+        "options": ["<a href='mailto:email@example.com'>Email</a>", "<mail href='email@example.com'>Email</mail>", "<email href='email@example.com'>Email</email>", "<a href='email@example.com'>Email</a>"],
+        "answer": "<a href='mailto:email@example.com'>Email</a>",
+        "topic": "Email Links: The `mailto:` scheme in the `href` attribute of an `<a>` tag creates a hyperlink that opens the user's email client with a pre-filled email address.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `method` attribute specify in an HTML form?",
+        "options": ["The HTTP method used to send form data", "The form's default value", "The form's encoding type", "The form's action URL"],
+        "answer": "The HTTP method used to send form data",
+        "topic": "Forms: The `method` attribute specifies the HTTP method (`GET` or `POST`) used to send the form data to the server.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which tag is used to define a dropdown list in HTML?",
+        "options": ["<select>", "<dropdown>", "<list>", "<choice>"],
+        "answer": "<select>",
+        "topic": "Forms: The `<select>` tag is used to create a dropdown list of options for users to choose from.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the correct HTML tag to define a horizontal rule?",
+        "options": ["<hr>", "<rule>", "<line>", "<hrule>"],
+        "answer": "<hr>",
+        "topic": "Horizontal Rules: The `<hr>` tag creates a horizontal line or rule that separates content visually.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you define a table cell that spans multiple columns?",
+        "options": ["<td colspan='number'>", "<td rowspan='number'>", "<td span='number'>", "<cell colspan='number'>"],
+        "answer": "<td colspan='number'>",
+        "topic": "Tables: The `colspan` attribute in the `<td>` tag allows a table cell to span across multiple columns.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which HTML5 element is used to define a self-contained composition?",
+        "options": ["<article>", "<section>", "<div>", "<group>"],
+        "answer": "<article>",
+        "topic": "HTML5 Semantics: The `<article>` tag represents a self-contained composition that can be independently distributed or reused.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the function of the `<nav>` tag in HTML5?",
+        "options": ["Defines a navigation section", "Defines a header section", "Defines the main content", "Defines a footer section"],
+        "answer": "Defines a navigation section",
+        "topic": "Navigation: The `<nav>` tag is used to group and define navigation links or menus.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which tag is used to define a custom data attribute in HTML5?",
+        "options": ["data-*", "custom-*", "attribute-*", "prop-*"],
+        "answer": "data-*",
+        "topic": "Custom Data Attributes: HTML5 allows for the use of `data-*` attributes to store custom data on elements.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the correct HTML tag to define a container for navigation links?",
+        "options": ["<nav>", "<menu>", "<links>", "<container>"],
+        "answer": "<nav>",
+        "topic": "Navigation: The `<nav>` element is specifically used to define a section of navigation links in an HTML document.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you specify a default selected option in a dropdown list?",
+        "options": ["<option selected>Option</option>", "<option default>Option</option>", "<option active>Option</option>", "<option>Option</option>"],
+        "answer": "<option selected>Option</option>",
+        "topic": "Dropdown Lists: The `selected` attribute in the `<option>` tag specifies which option is selected by default in a dropdown list.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `<address>` tag represent in HTML?",
+        "options": ["Contact information for the author or owner", "A block of text", "A table section", "A header section"],
+        "answer": "Contact information for the author or owner",
+        "topic": "HTML5 Semantics: The `<address>` tag is used to provide contact information for the author or owner of the document or section.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which HTML element is used to define a navigation link within a form?",
+        "options": ["<button>", "<a>", "<input>", "<select>"],
+        "answer": "<button>",
+        "topic": "Forms: The `<button>` tag is used to create clickable buttons within a form, which can also be used for navigation.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you include an external CSS file in an HTML document?",
+        "options": ["<link rel='stylesheet' href='style.css'>", "<style src='style.css'></style>", "<css href='style.css'>", "<style src='style.css'>"],
+        "answer": "<link rel='stylesheet' href='style.css'>",
+        "topic": "CSS Integration: The `<link>` tag with `rel='stylesheet'` is used to include external CSS files for styling an HTML document.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the correct tag to define a navigation menu in HTML?",
+        "options": ["<nav>", "<menu>", "<ul>", "<links>"],
+        "answer": "<nav>",
+        "topic": "Navigation: The `<nav>` tag is used to define a block of navigation links or menus.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which tag is used to define a section of content with a specific heading?",
+        "options": ["<section>", "<header>", "<article>", "<footer>"],
+        "answer": "<section>",
+        "topic": "HTML5 Semantics: The `<section>` tag is used to define a section of content with a specific heading and thematic grouping.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `type` attribute specify in the `<input>` tag?",
+        "options": ["The type of input control", "The default value of the input", "The input's placeholder text", "The input's maximum length"],
+        "answer": "The type of input control",
+        "topic": "Forms: The `type` attribute in the `<input>` tag specifies the kind of input control to display, such as text, password, or checkbox.",
+        "difficulty": "Basic"
+    },
+    
+    {
+        "question": "Which HTML tag is used to define a list item?",
+        "options": ["<li>", "<item>", "<list>", "<liitem>"],
+        "answer": "<li>",
+        "topic": "Lists: The `<li>` tag is used to define an item in an ordered or unordered list.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `<script>` tag in HTML?",
+        "options": ["To include JavaScript code or link to a JavaScript file", "To define CSS styles", "To include multimedia content", "To create a form"],
+        "answer": "To include JavaScript code or link to a JavaScript file",
+        "topic": "JavaScript Integration: The `<script>` tag is used to either include JavaScript code directly in the HTML or link to an external JavaScript file.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which attribute is used to define the width of an image in HTML?",
+        "options": ["width", "size", "length", "height"],
+        "answer": "width",
+        "topic": "Image Attributes: The `width` attribute in the `<img>` tag specifies the width of the image, either in pixels or percentage.",
+        "difficulty": "Basic"
+    }
+
+
+]

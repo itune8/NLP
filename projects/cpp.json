@@ -1,0 +1,345 @@
+[
+    {
+        "question": "Which of the following is the correct way to define a main function in C++?",
+        "options": ["int main() {}", "void main() {}", "main() int {}", "int main {}"],
+        "answer": "int main() {}",
+        "topic": "Main Function: The main function is the entry point of a C++ program and must return an integer.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `#include` directive in C++?",
+        "options": ["Includes the contents of a file", "Defines a constant value", "Specifies the program's entry point", "Declares a function prototype"],
+        "answer": "Includes the contents of a file",
+        "topic": "Preprocessor Directives: `#include` is used to include the contents of a file, such as header files, into the program.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to create a class in C++?",
+        "options": ["class", "struct", "object", "type"],
+        "answer": "class",
+        "topic": "Classes: The `class` keyword is used to define a class, which is a blueprint for creating objects.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `public` keyword indicate in a class definition?",
+        "options": ["Members are accessible from outside the class", "Members are accessible only within the class", "Members are private to the class", "Members are static"],
+        "answer": "Members are accessible from outside the class",
+        "topic": "Access Specifiers: `public` members of a class can be accessed from outside the class.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the default access specifier for members of a class?",
+        "options": ["private", "public", "protected", "static"],
+        "answer": "private",
+        "topic": "Default Access: In C++, if no access specifier is provided, the default access level for class members is `private`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you define a constant variable in C++?",
+        "options": ["const int x = 10;", "int const x = 10;", "const x = 10;", "static const int x = 10;"],
+        "answer": "const int x = 10;",
+        "topic": "Constant Variables: The `const` keyword is used to define a variable whose value cannot be modified after initialization.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `virtual` keyword in C++?",
+        "options": ["Allows a function to be overridden in derived classes", "Defines a constant variable", "Specifies a function as inline", "Marks a function as static"],
+        "answer": "Allows a function to be overridden in derived classes",
+        "topic": "Virtual Functions: The `virtual` keyword is used to declare a function that can be overridden in derived classes, enabling polymorphism.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following is the correct syntax for a pointer to an integer in C++?",
+        "options": ["int *ptr;", "int ptr*;", "int &ptr;", "int ptr;"],
+        "answer": "int *ptr;",
+        "topic": "Pointers: `int *ptr;` declares a pointer to an integer, which stores the address of an integer variable.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you allocate memory dynamically in C++?",
+        "options": ["new", "malloc", "calloc", "resize"],
+        "answer": "new",
+        "topic": "Dynamic Memory Allocation: The `new` keyword is used to allocate memory dynamically on the heap in C++.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is a destructor in C++?",
+        "options": ["A special member function that is called when an object is destroyed", "A function that initializes an object", "A function that performs I/O operations", "A function that copies an object"],
+        "answer": "A special member function that is called when an object is destroyed",
+        "topic": "Destructors: Destructors are special member functions that are invoked automatically when an object goes out of scope or is explicitly deleted.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int a = 5;\nint &b = a;\nb = 10;\nstd::cout << a;`",
+        "options": ["10", "5", "Error", "Undefined"],
+        "answer": "10",
+        "topic": "References: In C++, `b` is a reference to `a`, so changing `b` affects `a` as well.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `static` keyword do in a class context?",
+        "options": ["Makes a member shared among all instances of the class", "Restricts access to a member within the class", "Makes a member only accessible through static methods", "Initializes a member only once"],
+        "answer": "Makes a member shared among all instances of the class",
+        "topic": "Static Members: `static` members are shared among all instances of a class, and they can be accessed without creating an object of the class.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you declare a function that returns a pointer to an integer?",
+        "options": ["int* functionName();", "int functionName*();", "int& functionName();", "functionName() int*;"],
+        "answer": "int* functionName();",
+        "topic": "Function Declarations: To declare a function returning a pointer to an integer, use `int* functionName();`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `namespace` keyword in C++?",
+        "options": ["To define a scope that avoids name collisions", "To define a constant variable", "To create a class", "To declare a function"],
+        "answer": "To define a scope that avoids name collisions",
+        "topic": "Namespaces: `namespace` creates a scope to group related identifiers and avoid naming conflicts.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which operator is used to access members of a class through a pointer?",
+        "options": ["->", ".", "&", "::"],
+        "answer": "->",
+        "topic": "Pointer Operators: The `->` operator is used to access members of a class or struct through a pointer.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of the following code snippet?\n`std::cout << (5 / 2) << ' ' << (5 % 2);`",
+        "options": ["2 1", "2 2", "2 0", "2 5"],
+        "answer": "2 1",
+        "topic": "Arithmetic Operators: `/` performs integer division, while `%` gives the remainder of the division.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to prevent a class from being inherited?",
+        "options": ["final", "private", "sealed", "static"],
+        "answer": "final",
+        "topic": "Class Inheritance: The `final` keyword is used to prevent a class from being inherited.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What does the `auto` keyword do in C++?",
+        "options": ["Automatically deduces the type of a variable", "Defines a variable with automatic storage duration", "Specifies a function to be inline", "Makes a variable static"],
+        "answer": "Automatically deduces the type of a variable",
+        "topic": "Type Deduction: The `auto` keyword allows the compiler to automatically deduce the type of a variable from its initializer.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How can you initialize a vector with a size of 10 elements, all set to 0?",
+        "options": ["std::vector<int> v(10, 0);", "std::vector<int> v(10);", "std::vector<int> v = {0};", "std::vector<int> v; v.resize(10, 0);"],
+        "answer": "std::vector<int> v(10, 0);",
+        "topic": "Vector Initialization: `std::vector<int> v(10, 0);` initializes a vector with 10 elements, each set to 0.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is a pure virtual function in C++?",
+        "options": ["A function that must be overridden in derived classes", "A function that is declared but not defined", "A function that is not allowed to be overridden", "A function that has no parameters"],
+        "answer": "A function that must be overridden in derived classes",
+        "topic": "Pure Virtual Functions: A pure virtual function is a function that must be implemented by derived classes, making the base class abstract.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int x = 10;\nint y = ++x * 5;\nstd::cout << y;`",
+        "options": ["55", "50", "45", "60"],
+        "answer": "55",
+        "topic": "Pre-Increment Operator: `++x` increments `x` before using it in the expression, so `y` becomes `11 * 5`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define a template function in C++?",
+        "options": ["template <typename T> T functionName(T arg) {}", "template <class T> functionName(T arg) {}", "template <T> T functionName(T arg) {}", "template functionName(T arg) {}"],
+        "answer": "template <typename T> T functionName(T arg) {}",
+        "topic": "Templates: Template functions allow you to write generic code that works with any data type.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the role of the `static` keyword when used with a function in C++?",
+        "options": ["Limits the function's scope to the file it is defined in", "Prevents the function from being overridden", "Allows the function to be called without an object", "Makes the function thread-safe"],
+        "answer": "Limits the function's scope to the file it is defined in",
+        "topic": "Static Functions: A `static` function's scope is limited to the file it is defined in, preventing external linkage.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following operators is used for bitwise AND in C++?",
+        "options": ["&", "&&", "|", "^"],
+        "answer": "&",
+        "topic": "Bitwise Operators: `&` is used for performing bitwise AND operations on integer types.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `const_cast` operator in C++?",
+        "options": ["To cast away `const` or `volatile` qualifiers from a variable", "To cast a variable to a different type", "To perform dynamic type casting", "To cast between different integer types"],
+        "answer": "To cast away `const` or `volatile` qualifiers from a variable",
+        "topic": "Type Casting: `const_cast` is used to add or remove `const` or `volatile` qualifiers from a variable.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the result of the following code snippet?\n`std::cout << 5 / 2.0;`",
+        "options": ["2.5", "2", "2.0", "Error"],
+        "answer": "2.5",
+        "topic": "Type Conversion: Dividing an integer by a floating-point number results in a floating-point result.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define a multi-dimensional array in C++?",
+        "options": ["int arr[3][4];", "int arr[3,4];", "int arr[3] [4];", "int arr[3,4] = {};"],
+        "answer": "int arr[3][4];",
+        "topic": "Multi-Dimensional Arrays: Arrays with more than one dimension are defined with each dimension's size specified in brackets.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is RAII in C++?",
+        "options": ["Resource Acquisition Is Initialization", "Resource Allocation Is Immediate", "Runtime Allocation Is Instant", "Real-time Allocation Is Important"],
+        "answer": "Resource Acquisition Is Initialization",
+        "topic": "RAII: RAII is a programming idiom where resource allocation is tied to object lifetime, ensuring resources are properly released when objects are destroyed.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the effect of the `using namespace std;` directive?",
+        "options": ["Brings all names from the `std` namespace into the global namespace", "Creates a new namespace named `std`", "Limits the scope of `std` to a specific block", "Prevents name collisions within `std`"],
+        "answer": "Brings all names from the `std` namespace into the global namespace",
+        "topic": "Namespaces: `using namespace std;` allows the program to use names from the `std` namespace without the `std::` prefix.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you handle exceptions in C++?",
+        "options": ["try, catch, throw", "error, handle, recover", "catch, throw, finally", "try, handle, throw"],
+        "answer": "try, catch, throw",
+        "topic": "Exception Handling: C++ uses `try`, `catch`, and `throw` to handle exceptions and errors.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of `dynamic_cast` in C++?",
+        "options": ["To perform safe downcasting and check types at runtime", "To cast a variable to a different type", "To convert types during compilation", "To allocate memory dynamically"],
+        "answer": "To perform safe downcasting and check types at runtime",
+        "topic": "Type Casting: `dynamic_cast` is used for safe downcasting and type checking in C++.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What does the `override` keyword indicate in C++?",
+        "options": ["That a member function is intended to override a base class virtual function", "That a function should not be overridden", "That a function is inline", "That a function is static"],
+        "answer": "That a member function is intended to override a base class virtual function",
+        "topic": "Function Overriding: The `override` keyword ensures that a derived class function is intended to override a virtual function from the base class.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "How can you declare an inline function in C++?",
+        "options": ["inline returnType functionName(parameters) {}", "functionName(parameters) inline {}", "inline functionName(parameters) {}", "returnType inline functionName(parameters) {}"],
+        "answer": "inline returnType functionName(parameters) {}",
+        "topic": "Inline Functions: The `inline` keyword suggests to the compiler to insert the function's code directly at the call site to reduce overhead.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `mutable` keyword in C++?",
+        "options": ["Allows modification of class members in a const member function", "Defines a member as constant", "Declares a variable as global", "Enforces immutability of an object"],
+        "answer": "Allows modification of class members in a const member function",
+        "topic": "Mutable Members: `mutable` allows modification of a class member even if it is part of a `const` method.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the result of the following code snippet?\n`int x = 10;\nint y = x++ * 2;\nstd::cout << y;`",
+        "options": ["20", "22", "10", "24"],
+        "answer": "20",
+        "topic": "Post-Increment Operator: `x++` increments `x` after its value has been used, so `y` becomes `10 * 2`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you declare a constant pointer in C++?",
+        "options": ["const int *ptr;", "int *const ptr;", "const int const ptr;", "int const *const ptr;"],
+        "answer": "int *const ptr;",
+        "topic": "Constant Pointers: `int *const ptr;` declares a constant pointer, meaning the pointer's address cannot change but the value it points to can.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "Which of the following operators is used for logical AND in C++?",
+        "options": ["&&", "&", "||", "^"],
+        "answer": "&&",
+        "topic": "Logical Operators: `&&` is used to perform logical AND operations between boolean expressions.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`std::cout << 3 + 4 * 2 << ' ' << (3 + 4) * 2;`",
+        "options": ["11 14", "14 14", "11 14", "14 22"],
+        "answer": "11 14",
+        "topic": "Operator Precedence: The expression `4 * 2` is evaluated first due to higher precedence, so `3 + 8` equals `11`, while `(3 + 4) * 2` equals `14`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is a virtual destructor in C++?",
+        "options": ["A destructor that is declared with the `virtual` keyword to ensure proper cleanup in derived classes", "A destructor that is not called during object destruction", "A destructor that can be overridden", "A destructor that prevents deletion of objects"],
+        "answer": "A destructor that is declared with the `virtual` keyword to ensure proper cleanup in derived classes",
+        "topic": "Virtual Destructors: Virtual destructors ensure that derived class destructors are called when deleting an object through a base class pointer.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "How do you define a function template in C++?",
+        "options": ["template <typename T> T functionName(T arg) {}", "functionName<T>(T arg) {}", "template <class T> T functionName() {}", "template <T> T functionName(T) {}"],
+        "answer": "template <typename T> T functionName(T arg) {}",
+        "topic": "Function Templates: Templates allow you to create functions that can operate with any data type.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the difference between `struct` and `class` in C++?",
+        "options": ["`struct` members are public by default, while `class` members are private", "`class` members are public by default, while `struct` members are private", "`struct` cannot have methods", "`class` can only have private members"],
+        "answer": "`struct` members are public by default, while `class` members are private",
+        "topic": "Structs vs Classes: In C++, the main difference is that `struct` members are public by default, whereas `class` members are private by default.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`int arr[3] = {1, 2, 3};\nint *ptr = arr;\nstd::cout << *(ptr + 1);`",
+        "options": ["2", "1", "3", "Error"],
+        "answer": "2",
+        "topic": "Pointer Arithmetic: `*(ptr + 1)` accesses the second element of the array `arr` through pointer arithmetic.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you prevent a class from being instantiated in C++?",
+        "options": ["Declare the constructor as `private` and do not provide any public methods to instantiate", "Use the `abstract` keyword", "Declare the class as `static`", "Use `private` access specifier for all members"],
+        "answer": "Declare the constructor as `private` and do not provide any public methods to instantiate",
+        "topic": "Preventing Instantiation: By making the constructor private and not providing a public method to create instances, you can prevent the class from being instantiated.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What does the `explicit` keyword do in C++?",
+        "options": ["Prevents implicit conversions for constructors and conversion operators", "Makes a constructor inline", "Declares a function as virtual", "Defines a function template"],
+        "answer": "Prevents implicit conversions for constructors and conversion operators",
+        "topic": "Explicit Constructors: `explicit` prevents implicit conversions that would otherwise be performed by constructors or conversion operators.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the output of the following code snippet?\n`std::cout << 1 + 2 * 3 / 4 - 5;`",
+        "options": ["0", "1", "-1", "-2"],
+        "answer": "0",
+        "topic": "Operator Precedence: The expression is evaluated as `1 + (2 * 3 / 4) - 5`, resulting in `1 + 1 - 5`, which equals `0`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is a lambda function in C++?",
+        "options": ["A type of anonymous function that can capture variables from the surrounding scope", "A function that is defined outside of a class", "A function that only accepts lambda expressions", "A type of function that cannot be modified"],
+        "answer": "A type of anonymous function that can capture variables from the surrounding scope",
+        "topic": "Lambda Functions: Lambdas are anonymous functions that can capture variables from their surrounding scope.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What does the `decltype` keyword do in C++?",
+        "options": ["Determines the type of an expression", "Defines a new type", "Declares a variable with a default type", "Creates a new class type"],
+        "answer": "Determines the type of an expression",
+        "topic": "Type Deduction: `decltype` is used to determine the type of an expression at compile-time.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define an abstract class in C++?",
+        "options": ["By declaring at least one pure virtual function", "By using the `abstract` keyword", "By making all member functions static", "By declaring all members as private"],
+        "answer": "By declaring at least one pure virtual function",
+        "topic": "Abstract Classes: An abstract class is one that contains at least one pure virtual function, making it impossible to instantiate directly.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the purpose of the `friend` keyword in C++?",
+        "options": ["Grants access to private and protected members of a class", "Defines a function as inline", "Declares a function as virtual", "Makes a class immutable"],
+        "answer": "Grants access to private and protected members of a class",
+        "topic": "Friend Classes and Functions: The `friend` keyword allows functions or other classes to access private and protected members of the class in which it is declared.",
+        "difficulty": "Advanced"
+    }
+]

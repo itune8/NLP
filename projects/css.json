@@ -1,0 +1,328 @@
+[
+    {
+        "question": "What does the `color` property do in CSS?",
+        "options": ["Sets the color of text", "Sets the background color of an element", "Sets the border color of an element", "Sets the color of an element's shadow"],
+        "answer": "Sets the color of text",
+        "topic": "Text Color: The `color` property is used to specify the color of text within an element.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which CSS property controls the spacing between lines of text?",
+        "options": ["line-height", "letter-spacing", "margin", "padding"],
+        "answer": "line-height",
+        "topic": "Line Spacing: The `line-height` property controls the vertical spacing between lines of text.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you center an element horizontally using CSS?",
+        "options": ["margin: 0 auto;", "text-align: center;", "align-items: center;", "display: center;"],
+        "answer": "margin: 0 auto;",
+        "topic": "Centering Elements: To center an element horizontally, `margin: 0 auto;` is commonly used with a fixed width.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `flex-direction` property do in Flexbox?",
+        "options": ["Defines the direction in which flex items are placed in the flex container", "Aligns flex items along the cross axis", "Specifies the spacing between flex items", "Sets the flex container's display type"],
+        "answer": "Defines the direction in which flex items are placed in the flex container",
+        "topic": "Flexbox Layout: The `flex-direction` property specifies the direction of the flex items within the flex container.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you select all `<p>` elements within a `<div>` in CSS?",
+        "options": ["div p {}", "p div {}", "div > p {}", "div + p {}"],
+        "answer": "div p {}",
+        "topic": "Descendant Selector: `div p` selects all `<p>` elements that are descendants of a `<div>` element.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which property is used to add space inside an element's border?",
+        "options": ["padding", "margin", "border-spacing", "spacing"],
+        "answer": "padding",
+        "topic": "Box Model: The `padding` property adds space inside the border of an element, between the border and the content.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `z-index` property in CSS?",
+        "options": ["Controls the stacking order of elements", "Sets the width of an element", "Defines the visibility of an element", "Aligns elements vertically"],
+        "answer": "Controls the stacking order of elements",
+        "topic": "Stacking Context: `z-index` controls the stacking order of positioned elements, with higher values appearing above lower ones.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you make a background image cover the entire element in CSS?",
+        "options": ["background-size: cover;", "background-position: center;", "background-repeat: no-repeat;", "background-attachment: fixed;"],
+        "answer": "background-size: cover;",
+        "topic": "Background Images: `background-size: cover;` ensures the background image covers the entire element, maintaining its aspect ratio.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which pseudo-class is used to select the first child of an element?",
+        "options": [":first-child", ":nth-child(1)", ":first-of-type", ":nth-of-type(1)"],
+        "answer": ":first-child",
+        "topic": "Pseudo-Classes: `:first-child` selects the first child element within its parent element.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `display: grid;` property do in CSS?",
+        "options": ["Defines a grid container for layout purposes", "Aligns items within a flex container", "Sets the display type of an element to grid", "Controls the visibility of an element"],
+        "answer": "Defines a grid container for layout purposes",
+        "topic": "Grid Layout: `display: grid;` establishes a grid layout context, allowing for complex layout structures with rows and columns.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "How do you apply a style to elements with a specific class in CSS?",
+        "options": [".class-name {}", "#class-name {}", "class-name {}", "element.class-name {}"],
+        "answer": ".class-name {}",
+        "topic": "Class Selector: A class selector is used to apply styles to all elements with the specified class name.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the effect of `overflow: hidden;` on an element?",
+        "options": ["Content that exceeds the element's bounds is clipped", "Content is scrolled if it exceeds the element's bounds", "The element's overflow is visible", "The element's content is wrapped"],
+        "answer": "Content that exceeds the element's bounds is clipped",
+        "topic": "Overflow: `overflow: hidden;` clips content that extends beyond the element's boundaries without providing scrollbars.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you apply a linear gradient background in CSS?",
+        "options": ["background: linear-gradient(direction, color1, color2);", "background: gradient(direction, color1, color2);", "background-image: linear-gradient(direction, color1, color2);", "background-color: linear-gradient(direction, color1, color2);"],
+        "answer": "background: linear-gradient(direction, color1, color2);",
+        "topic": "Gradients: `background: linear-gradient()` applies a linear gradient as a background image, specifying direction and color stops.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `position: absolute;` property do in CSS?",
+        "options": ["Positions the element relative to its nearest positioned ancestor", "Positions the element relative to the viewport", "Centers the element within its container", "Keeps the element in its normal document flow"],
+        "answer": "Positions the element relative to its nearest positioned ancestor",
+        "topic": "Positioning: `position: absolute;` positions an element relative to its closest positioned ancestor or the viewport if none exists.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the default value of the `box-sizing` property?",
+        "options": ["content-box", "border-box", "padding-box", "margin-box"],
+        "answer": "content-box",
+        "topic": "Box Sizing: The default value of `box-sizing` is `content-box`, where width and height apply only to the content area, excluding padding and border.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you create a CSS animation?",
+        "options": ["@keyframes and animation property", "@animation and keyframes property", "@anim and animation property", "animation-keyframes and animation-property"],
+        "answer": "@keyframes and animation property",
+        "topic": "CSS Animations: Animations are created using `@keyframes` to define the animation steps and the `animation` property to apply the animation to an element.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the effect of `text-transform: uppercase;`?",
+        "options": ["Transforms all text to uppercase", "Transforms all text to lowercase", "Capitalizes the first letter of each word", "Makes the text italic"],
+        "answer": "Transforms all text to uppercase",
+        "topic": "Text Transformation: `text-transform: uppercase;` converts all text within the element to uppercase.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you apply styles to an element when it is hovered over?",
+        "options": ["element:hover {}", "element:hover { }", "element:hovered { }", "element:hovered {}"],
+        "answer": "element:hover {}",
+        "topic": "Pseudo-Classes: The `:hover` pseudo-class applies styles to an element when the mouse pointer is over it.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `justify-content` property do in Flexbox?",
+        "options": ["Aligns flex items along the main axis", "Aligns flex items along the cross axis", "Sets the size of flex items", "Controls the flex container's direction"],
+        "answer": "Aligns flex items along the main axis",
+        "topic": "Flexbox Alignment: `justify-content` aligns flex items along the main axis of the flex container, such as left, center, or space-between.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you apply a border radius to an element in CSS?",
+        "options": ["border-radius: value;", "radius: value;", "border: radius value;", "corner-radius: value;"],
+        "answer": "border-radius: value;",
+        "topic": "Border Radius: The `border-radius` property creates rounded corners for an element's border box.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does `grid-template-columns: 1fr 2fr;` do in CSS Grid Layout?",
+        "options": ["Defines a grid with two columns where the second column is twice as wide as the first", "Creates a grid with one column and two rows", "Sets equal column widths for all columns", "Creates a grid with two rows and one column"],
+        "answer": "Defines a grid with two columns where the second column is twice as wide as the first",
+        "topic": "Grid Layout: `grid-template-columns` defines the size of the columns in a grid layout, with `fr` units representing fractions of available space.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you hide an element but keep its space in the layout?",
+        "options": ["visibility: hidden;", "display: none;", "opacity: 0;", "position: absolute;"],
+        "answer": "visibility: hidden;",
+        "topic": "Element Visibility: `visibility: hidden;` hides the element but retains its space in the layout, unlike `display: none;` which removes it completely.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the effect of `position: relative;` on an element?",
+        "options": ["Positions the element relative to its normal position", "Positions the element relative to its parent container", "Fixes the element's position in the viewport", "Sets the element's position to the top left of the page"],
+        "answer": "Positions the element relative to its normal position",
+        "topic": "Relative Positioning: `position: relative;` allows an element to be positioned relative to its original position, shifting it as needed.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `box-shadow` property do in CSS?",
+        "options": ["Adds shadow effects around an element", "Controls the border color of an element", "Sets the width of an element's border", "Changes the background color of an element"],
+        "answer": "Adds shadow effects around an element",
+        "topic": "Box Shadow: The `box-shadow` property adds shadow effects to the outer edge of an element, creating depth and visual interest.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you select elements with a specific attribute value in CSS?",
+        "options": ["[attribute=value]", "[attribute~=value]", "[attribute|=value]", "[attribute^=value]"],
+        "answer": "[attribute=value]",
+        "topic": "Attribute Selectors: `[attribute=value]` selects elements with a specific attribute value.",
+        "difficulty": "Intermediate"
+    },
+
+    
+    {
+        "question": "How do you center text horizontally within a block element in CSS?",
+        "options": ["text-align: center;", "align: center;", "center-align: true;", "text-position: center;"],
+        "answer": "text-align: center;",
+        "topic": "Text Alignment: `text-align: center;` centers the text horizontally within its containing block element.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which property is used to control the space between lines of text in CSS?",
+        "options": ["line-height", "letter-spacing", "text-indent", "word-spacing"],
+        "answer": "line-height",
+        "topic": "Line Spacing: `line-height` controls the space between lines of text in a block element.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you apply a gradient background from top to bottom in CSS?",
+        "options": ["background: linear-gradient(to bottom, color1, color2);", "background: gradient(top bottom, color1, color2);", "background-image: linear-gradient(color1, color2);", "background-color: linear-gradient(top, color1, color2);"],
+        "answer": "background: linear-gradient(to bottom, color1, color2);",
+        "topic": "Gradient Backgrounds: `linear-gradient(to bottom, color1, color2)` creates a gradient background that transitions from `color1` to `color2` vertically.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does `overflow: scroll;` do to an element?",
+        "options": ["Always shows scrollbars, even if not needed", "Hides overflow content without scrollbars", "Displays scrollbars only when needed", "Wraps overflow content within the element"],
+        "answer": "Always shows scrollbars, even if not needed",
+        "topic": "Overflow Handling: `overflow: scroll;` forces scrollbars to be visible, regardless of whether the content overflows.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which CSS property is used to change the font size of an element?",
+        "options": ["font-size", "text-size", "font-style", "size"],
+        "answer": "font-size",
+        "topic": "Font Size: `font-size` changes the size of the font used in an element.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How can you apply styles to an element when it is active (being clicked)?",
+        "options": [":active", ":click", ":pressed", ":focus"],
+        "answer": ":active",
+        "topic": "Pseudo-Classes: `:active` applies styles to an element while it is being activated by the user, such as during a click.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `flex-wrap` property in Flexbox?",
+        "options": ["Controls whether flex items are forced onto one line or can wrap onto multiple lines", "Aligns flex items along the cross axis", "Sets the direction of the flex container", "Specifies the space between flex items"],
+        "answer": "Controls whether flex items are forced onto one line or can wrap onto multiple lines",
+        "topic": "Flexbox Layout: `flex-wrap` controls if and how flex items wrap onto multiple lines within a flex container.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you apply a style to the first child of each `<ul>` element?",
+        "options": ["ul > li:first-child {}", "ul:first-child li {}", "ul li:first-of-type {}", "ul > li:first-of-type {}"],
+        "answer": "ul > li:first-child {}",
+        "topic": "Child Selectors: `ul > li:first-child` selects the first `<li>` child of each `<ul>` element.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the effect of `position: fixed;` on an element?",
+        "options": ["Positions the element relative to the viewport", "Positions the element relative to its parent", "Keeps the element in its normal document flow", "Positions the element relative to its nearest positioned ancestor"],
+        "answer": "Positions the element relative to the viewport",
+        "topic": "Fixed Positioning: `position: fixed;` keeps an element fixed relative to the viewport, even when scrolling.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which property controls the spacing between lines of text in CSS?",
+        "options": ["line-height", "text-spacing", "word-spacing", "letter-spacing"],
+        "answer": "line-height",
+        "topic": "Line Height: `line-height` defines the amount of space between lines of text.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you center an element both vertically and horizontally using Flexbox?",
+        "options": ["display: flex; justify-content: center; align-items: center;", "display: block; text-align: center; vertical-align: middle;", "display: flex; align-items: center; margin: auto;", "position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"],
+        "answer": "display: flex; justify-content: center; align-items: center;",
+        "topic": "Flexbox Centering: Using `display: flex;` with `justify-content: center;` and `align-items: center;` centers an element both vertically and horizontally within its container.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What does the `transform` property do in CSS?",
+        "options": ["Applies 2D or 3D transformations to an element", "Sets the size of an element", "Adjusts the color of an element", "Changes the layout of an element"],
+        "answer": "Applies 2D or 3D transformations to an element",
+        "topic": "Transformations: `transform` applies 2D or 3D transformations such as translation, rotation, scaling, and skewing to an element.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the effect of the `float` property in CSS?",
+        "options": ["Moves an element to the left or right and allows other content to flow around it", "Centers an element horizontally", "Aligns an element vertically", "Controls the visibility of an element"],
+        "answer": "Moves an element to the left or right and allows other content to flow around it",
+        "topic": "Floats: `float` positions an element to the left or right within its containing block, allowing text or inline elements to wrap around it.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How can you apply a border to an element in CSS?",
+        "options": ["border: width style color;", "border-color: color; border-style: style; border-width: width;", "border-width: width; border-style: style; border-color: color;", "border-style: style; border-color: color; border-width: width;"],
+        "answer": "border: width style color;",
+        "topic": "Borders: The `border` shorthand property sets the width, style, and color of an element's border in a single declaration.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `@media` rule in CSS allow you to do?",
+        "options": ["Apply styles based on device characteristics", "Define keyframes for animations", "Import external style sheets", "Specify font styles"],
+        "answer": "Apply styles based on device characteristics",
+        "topic": "Media Queries: The `@media` rule is used to apply different styles based on device characteristics such as screen size or orientation.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you create a CSS grid layout with three equal columns?",
+        "options": ["display: grid; grid-template-columns: repeat(3, 1fr);", "display: flex; flex-direction: row; flex: 1;", "display: grid; grid-columns: 3; column-width: 1fr;", "display: grid; grid-template-rows: repeat(3, 1fr);"],
+        "answer": "display: grid; grid-template-columns: repeat(3, 1fr);",
+        "topic": "CSS Grid Layout: `grid-template-columns: repeat(3, 1fr);` creates a grid layout with three equal-width columns.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `box-sizing` property?",
+        "options": ["Defines how the width and height of an element are calculated", "Sets the border style of an element", "Controls the layout of an element", "Adjusts the padding and margin of an element"],
+        "answer": "Defines how the width and height of an element are calculated",
+        "topic": "Box Sizing: `box-sizing` determines how the width and height of an element include padding and border.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `z-index` property do in CSS?",
+        "options": ["Controls the stacking order of positioned elements", "Sets the size of an element", "Defines the font size of text", "Adjusts the opacity of an element"],
+        "answer": "Controls the stacking order of positioned elements",
+        "topic": "Stacking Context: `z-index` controls the vertical stacking order of positioned elements.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How can you create a responsive design using CSS?",
+        "options": ["Use media queries to apply styles based on screen size", "Use fixed pixel values for layout widths", "Avoid using flexible units like percentages", "Apply styles only to desktop viewports"],
+        "answer": "Use media queries to apply styles based on screen size",
+        "topic": "Responsive Design: Media queries enable responsive design by applying different styles based on the device's screen size or characteristics.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `opacity` property control?",
+        "options": ["The transparency level of an element", "The font size of text", "The border style of an element", "The position of an element"],
+        "answer": "The transparency level of an element",
+        "topic": "Opacity: The `opacity` property adjusts the transparency level of an element, ranging from `0` (fully transparent) to `1` (fully opaque).",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you add a custom font to your webpage?",
+        "options": ["Use `@font-face` rule and specify the font source", "Link to a font CDN in the `<head>`", "Use `font-family` to specify the font name", "Include the font file directly in HTML"],
+        "answer": "Use `@font-face` rule and specify the font source",
+        "topic": "Custom Fonts: The `@font-face` rule allows you to define and use custom fonts on your webpage by specifying the font source and family.",
+        "difficulty": "Intermediate"
+    }
+
+
+]

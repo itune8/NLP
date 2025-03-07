@@ -1,0 +1,419 @@
+[
+    {
+        "question": "What is the result of `console.log([] == ![]);`?",
+        "options": ["true", "false", "undefined", "Error"],
+        "answer": "true",
+        "topic": "Type Coercion: `[] == ![]` evaluates to `true` due to type coercion, where `![]` converts to `false`, and `false` coerces to `0`, which is equivalent to `[]` in this comparison.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What does the `Object.keys()` method return?",
+        "options": ["An array of a given object's property names", "An array of a given object's property values", "A single property name of a given object", "A list of methods of a given object"],
+        "answer": "An array of a given object's property names",
+        "topic": "Object Methods: `Object.keys()` returns an array containing the names of all enumerable properties of an object.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of `console.log(0.1 + 0.2 == 0.3);`?",
+        "options": ["true", "false", "0.3", "Error"],
+        "answer": "false",
+        "topic": "Floating Point Precision: Due to floating-point arithmetic issues, `0.1 + 0.2` does not exactly equal `0.3`, leading to `false`.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "Which method is used to remove whitespace from both ends of a string?",
+        "options": ["trim()", "strip()", "removeWhitespace()", "clean()"],
+        "answer": "trim()",
+        "topic": "String Methods: `trim()` removes whitespace from both ends of a string.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How can you check if a variable is an array in JavaScript?",
+        "options": ["Array.isArray(variable)", "variable instanceof Array", "typeof variable === 'array'", "variable.constructor === Array"],
+        "answer": "Array.isArray(variable)",
+        "topic": "Array Checking: `Array.isArray()` is a method used to determine whether a variable is an array.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `bind()` method in JavaScript?",
+        "options": ["Creates a new function with a specified `this` value and arguments", "Binds a function to an event", "Sets the context of `this` within a function", "Joins multiple functions into one"],
+        "answer": "Creates a new function with a specified `this` value and arguments",
+        "topic": "Function Binding: `bind()` creates a new function that, when called, has its `this` keyword set to a provided value.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does `const [a, b] = [1, 2];` do in JavaScript?",
+        "options": ["Destructures an array into variables `a` and `b`", "Creates an array with `a` and `b` elements", "Assigns values to `a` and `b` based on conditions", "Swaps values of `a` and `b`"],
+        "answer": "Destructures an array into variables `a` and `b`",
+        "topic": "Destructuring: Array destructuring allows extracting values from an array and assigning them to variables.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which method can be used to iterate over the properties of an object?",
+        "options": ["Object.keys()", "Object.values()", "Object.entries()", "forEach()"],
+        "answer": "Object.entries()",
+        "topic": "Object Iteration: `Object.entries()` returns an array of a given object's own enumerable property `[key, value]` pairs.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will `console.log('5' - 3);` output?",
+        "options": ["2", "53", "NaN", "Error"],
+        "answer": "2",
+        "topic": "Type Coercion: The `-` operator coerces `'5'` to a number, so `5 - 3` results in `2`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the result of `console.log('Hello' + 1 + 2);`?",
+        "options": ["Hello12", "Hello3", "Hello1", "Hello22"],
+        "answer": "Hello12",
+        "topic": "String Concatenation: `'Hello' + 1` results in `'Hello1'`, and then `'Hello1' + 2` results in `'Hello12'`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you handle errors in JavaScript using `try...catch`?",
+        "options": ["Wrap code in `try` block and handle errors in `catch` block", "Use `throw` statement in the `try` block", "Use `return` in the `catch` block", "Wrap code in `try` block and use `finally` to handle errors"],
+        "answer": "Wrap code in `try` block and handle errors in `catch` block",
+        "topic": "Error Handling: `try...catch` is used to execute code that might throw an error and handle any errors that occur in the `catch` block.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the purpose of the `Object.freeze()` method?",
+        "options": ["Prevents modifications to an object", "Clones an object", "Merges objects", "Checks if an object is frozen"],
+        "answer": "Prevents modifications to an object",
+        "topic": "Object Immutability: `Object.freeze()` makes an object immutable, preventing changes to its properties.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What will `console.log(2 + '2' * 2);` output?",
+        "options": ["22", "6", "4", "Error"],
+        "answer": "22",
+        "topic": "Operator Precedence: The `*` operator has higher precedence than `+`, so `'2' * 2` results in `4`, and `2 + 4` results in `'22'` due to string concatenation.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you check if a variable is undefined?",
+        "options": ["typeof variable === 'undefined'", "variable === undefined", "variable === null", "typeof variable === 'null'"],
+        "answer": "typeof variable === 'undefined'",
+        "topic": "Type Checking: `typeof variable === 'undefined'` is used to check if a variable has not been assigned a value.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the purpose of the `setTimeout()` function?",
+        "options": ["Executes a function after a specified delay", "Sets a timer to execute a function repeatedly", "Stops the execution of a function", "Pauses the execution of a function"],
+        "answer": "Executes a function after a specified delay",
+        "topic": "Timing Events: `setTimeout()` schedules a function to be executed after a specified number of milliseconds.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you create a new empty array in JavaScript?",
+        "options": ["const arr = [];", "const arr = new Array();", "const arr = Array();", "const arr = array();"],
+        "answer": "const arr = [];",
+        "topic": "Array Creation: An empty array can be created using `const arr = [];` or `const arr = new Array();`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does `Array.prototype.reduce()` do?",
+        "options": ["Reduces the array to a single value", "Filters elements based on a condition", "Maps each element to a new value", "Reverses the order of elements in the array"],
+        "answer": "Reduces the array to a single value",
+        "topic": "Array Reduction: `reduce()` executes a reducer function on each element of the array, resulting in a single output value.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of `console.log([] == []);`?",
+        "options": ["true", "false", "undefined", "Error"],
+        "answer": "false",
+        "topic": "Object Equality: Two distinct array instances are not equal, so `[] == []` evaluates to `false`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How can you add a new property to an object in JavaScript?",
+        "options": ["object.property = value;", "object.addProperty('property', value);", "object.set('property', value);", "object.newProperty = value;"],
+        "answer": "object.property = value;",
+        "topic": "Object Properties: New properties can be added to an object using dot notation, e.g., `object.property = value;`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `console.log('1' + - - 2);`?",
+        "options": ["3", "12", "NaN", "Error"],
+        "answer": "12",
+        "topic": "Type Coercion: The expression `- - 2` results in `2`, so `'1' + 2` results in `'12'` due to string concatenation.",
+        "difficulty": "Intermediate"
+    },
+
+    
+    {
+        "question": "What is the correct syntax to print 'Hello World' in JavaScript?",
+        "options": ["console.log('Hello World');", "print('Hello World');", "echo('Hello World');", "log.console('Hello World');"],
+        "answer": "console.log('Hello World');",
+        "topic": "Basic Output: `console.log()` is used to print messages to the console for debugging and information purposes.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you declare a variable in JavaScript?",
+        "options": ["var x;", "variable x;", "int x;", "declare x;"],
+        "answer": "var x;",
+        "topic": "Variable Declaration: `var`, `let`, and `const` are used to declare variables in JavaScript.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will the following code snippet output? `console.log(2 + '2');`",
+        "options": ["22", "4", "undefined", "Error"],
+        "answer": "22",
+        "topic": "Type Coercion: When adding a number and a string, JavaScript converts the number to a string and concatenates them.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which method is used to convert a JSON string into a JavaScript object?",
+        "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "toObject()"],
+        "answer": "JSON.parse()",
+        "topic": "JSON Parsing: `JSON.parse()` is used to convert JSON strings into JavaScript objects.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will the following code snippet output? `console.log(typeof NaN);`",
+        "options": ["number", "NaN", "undefined", "object"],
+        "answer": "number",
+        "topic": "Type Checking: `typeof NaN` returns `number` because `NaN` is considered a numeric type in JavaScript.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you create a new array in JavaScript?",
+        "options": ["let arr = [];", "let arr = ();", "let arr = {};","let arr = array();"],
+        "answer": "let arr = [];",
+        "topic": "Arrays: Arrays in JavaScript are created using square brackets, e.g., `let arr = [];`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `console.log(0 == '0');`?",
+        "options": ["true", "false", "undefined", "Error"],
+        "answer": "true",
+        "topic": "Type Coercion: `==` performs type coercion, so `0` and `'0'` are considered equal.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `push()` method do in an array?",
+        "options": ["Adds an element to the end of an array", "Removes the first element of an array", "Adds an element to the beginning of an array", "Removes the last element of an array"],
+        "answer": "Adds an element to the end of an array",
+        "topic": "Array Methods: `push()` adds one or more elements to the end of an array.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which function is used to execute a function after a certain delay?",
+        "options": ["setTimeout()", "setInterval()", "delay()", "wait()"],
+        "answer": "setTimeout()",
+        "topic": "Timing Functions: `setTimeout()` executes a function after a specified delay in milliseconds.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `this` keyword refer to in a function?",
+        "options": ["The object that is currently executing the code", "The global object", "The function itself", "The previous function"],
+        "answer": "The object that is currently executing the code",
+        "topic": "Context: `this` refers to the object that owns the currently executing code.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which of the following is used to create a new object in JavaScript?",
+        "options": ["let obj = new Object();", "let obj = {};","let obj = Object.create();","let obj = new();"],
+        "answer": "let obj = new Object();",
+        "topic": "Object Creation: Objects can be created using `new Object()` or the object literal notation `{}`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What will `console.log([1] == [1]);` output?",
+        "options": ["true", "false", "undefined", "Error"],
+        "answer": "false",
+        "topic": "Object Comparison: Arrays are compared by reference, not by value, so `[1]` is not equal to `[1]`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define a function in JavaScript?",
+        "options": ["function myFunc() {}", "func myFunc() {}", "define myFunc() {}", "function: myFunc() {}"],
+        "answer": "function myFunc() {}",
+        "topic": "Function Declaration: Functions are defined using the `function` keyword followed by the function name and parentheses.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What is the output of `console.log(2 + 3 + '1');`?",
+        "options": ["51", "5", "23", "Error"],
+        "answer": "51",
+        "topic": "Type Coercion: The `+` operator first adds `2` and `3`, resulting in `5`, then concatenates `'1'`, producing `'51'`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the result of `false + 1` in JavaScript?",
+        "options": ["1", "false", "NaN", "undefined"],
+        "answer": "1",
+        "topic": "Type Coercion: `false` is coerced to `0` when used in arithmetic operations, so `false + 1` results in `1`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you access the last element of an array?",
+        "options": ["arr[arr.length - 1]", "arr[last]", "arr[arr.size - 1]", "arr.last()"],
+        "answer": "arr[arr.length - 1]",
+        "topic": "Array Access: The last element of an array is accessed using `arr[arr.length - 1]`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "Which keyword is used to create a class in JavaScript?",
+        "options": ["class", "create", "object", "function"],
+        "answer": "class",
+        "topic": "Classes: JavaScript uses the `class` keyword to define a class and create objects with shared methods and properties.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will `console.log('a' + +'b');` output?",
+        "options": ["NaN", "'ab'", "'aNaN'", "'a'"],
+        "answer": "NaN",
+        "topic": "Unary Plus Operator: The `+` operator before `'b'` attempts to convert it to a number, resulting in `NaN` when concatenated with `'a'`.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the purpose of the `bind()` method in JavaScript?",
+        "options": ["To create a new function with a specified `this` context", "To attach an event handler to an element", "To copy an object", "To merge arrays"],
+        "answer": "To create a new function with a specified `this` context",
+        "topic": "Function Binding: `bind()` creates a new function with a specified `this` value and optional arguments.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "Which method is used to remove the last element from an array?",
+        "options": ["pop()", "shift()", "slice()", "splice()"],
+        "answer": "pop()",
+        "topic": "Array Methods: `pop()` removes the last element from an array and returns it.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `spread operator` (`...`) do in JavaScript?",
+        "options": ["Expands an array or object into individual elements", "Combines multiple arrays into one", "Creates a new array from individual elements", "Duplicates an array"],
+        "answer": "Expands an array or object into individual elements",
+        "topic": "Spread Operator: The spread operator (`...`) is used to expand elements of an array or object into individual elements.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will `console.log('10' - 5);` output?",
+        "options": ["5", "105", "NaN", "10"],
+        "answer": "5",
+        "topic": "Type Coercion: The `-` operator performs arithmetic subtraction, so `'10'` is converted to a number and subtracted by `5`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which method is used to add a new element at the beginning of an array?",
+        "options": ["unshift()", "push()", "pop()", "splice()"],
+        "answer": "unshift()",
+        "topic": "Array Methods: `unshift()` adds one or more elements to the beginning of an array and returns the new length.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "How do you create a promise in JavaScript?",
+        "options": ["new Promise((resolve, reject) => {})", "Promise.create((resolve, reject) => {})", "Promise.new((resolve, reject) => {})", "new Promise((resolve, reject))"],
+        "answer": "new Promise((resolve, reject) => {})",
+        "topic": "Promises: Promises are created using the `new Promise()` constructor and provide a way to handle asynchronous operations.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which operator is used to compare both value and type in JavaScript?",
+        "options": ["===", "==", "!==", "!="],
+        "answer": "===",
+        "topic": "Strict Equality: The `===` operator checks for both value and type equality, ensuring that both operands are of the same type.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of `console.log(1 + '2' - 1);`?",
+        "options": ["11", "2", "NaN", "1"],
+        "answer": "2",
+        "topic": "Type Coercion: The `+` operator first converts `1` to a string, resulting in `'12'`, and then `- 1` converts it back to `2`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you define an arrow function in JavaScript?",
+        "options": ["const myFunc = () => {}", "const myFunc = function() {}", "const myFunc = new Function()", "function myFunc() {}"],
+        "answer": "const myFunc = () => {}",
+        "topic": "Arrow Functions: Arrow functions provide a concise syntax for defining functions and have lexical scoping for `this`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the output of `console.log('a' || 'b');`?",
+        "options": ["a", "b", "'a' or 'b'", "undefined"],
+        "answer": "a",
+        "topic": "Logical OR: The `||` operator returns the first truthy value, so `'a'` is returned as it is truthy.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "Which method is used to convert a JavaScript object into a JSON string?",
+        "options": ["JSON.stringify()", "JSON.parse()", "convertJSON()", "object.toJSON()"],
+        "answer": "JSON.stringify()",
+        "topic": "JSON Stringification: `JSON.stringify()` converts a JavaScript object into a JSON string for storage or transmission.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `finally` block do in a `try...catch` statement?",
+        "options": ["Executes code after `try` and `catch` blocks, regardless of outcome", "Executes code only if an exception occurs", "Executes code only if no exception occurs", "Catches errors that occur in `try` block"],
+        "answer": "Executes code after `try` and `catch` blocks, regardless of outcome",
+        "topic": "Error Handling: The `finally` block executes code after `try` and `catch`, regardless of whether an exception was thrown.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "Which method is used to remove a specific element from an array by index?",
+        "options": ["splice()", "pop()", "shift()", "slice()"],
+        "answer": "splice()",
+        "topic": "Array Modification: `splice()` can be used to add or remove elements at a specific index within an array.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What will `console.log([] + []);` output?",
+        "options": ["", "[]", "undefined", "Error"],
+        "answer": "",
+        "topic": "Type Coercion: Adding two arrays results in string concatenation, and `[]` coerces to an empty string, so the result is `''`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you create an object with a prototype in JavaScript?",
+        "options": ["Object.create(proto)", "new Object(proto)", "Object(proto)", "createObject(proto)"],
+        "answer": "Object.create(proto)",
+        "topic": "Prototypes: `Object.create()` creates a new object with the specified prototype object and properties.",
+        "difficulty": "Advanced"
+    },
+    {
+        "question": "What is the purpose of the `debugger` statement in JavaScript?",
+        "options": ["Pauses the execution and starts the debugger", "Logs information to the console", "Throws an error", "Continues the execution"],
+        "answer": "Pauses the execution and starts the debugger",
+        "topic": "Debugging: The `debugger` statement stops the execution of JavaScript code and invokes any available debugging functionality.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the result of `console.log(1 == true);`?",
+        "options": ["true", "false", "1", "NaN"],
+        "answer": "true",
+        "topic": "Type Coercion: `1` is coerced to `true` in a comparison with `true`, so `1 == true` is `true`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "How do you create a JavaScript object using an object literal?",
+        "options": ["const obj = {};","const obj = new Object();","const obj = Object.create();","const obj = Object();"],
+        "answer": "const obj = {};",
+        "topic": "Object Literals: Objects can be created using the object literal syntax, e.g., `const obj = {};`.",
+        "difficulty": "Basic"
+    },
+    {
+        "question": "What does the `Array.from()` method do?",
+        "options": ["Creates a new array instance from an array-like or iterable object", "Converts an array to a string", "Creates a new array with specific values", "Filters an array"],
+        "answer": "Creates a new array instance from an array-like or iterable object",
+        "topic": "Array Conversion: `Array.from()` creates a new array from an array-like or iterable object, such as a string or a set.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What is the result of `console.log(2 ** 3);`?",
+        "options": ["8", "6", "9", "Error"],
+        "answer": "8",
+        "topic": "Exponentiation Operator: The `**` operator is used for exponentiation, so `2 ** 3` equals `8`.",
+        "difficulty": "Intermediate"
+    },
+    {
+        "question": "What does the `Array.prototype.map()` method do?",
+        "options": ["Creates a new array with the results of calling a provided function on every element", "Filters elements based on a condition", "Reduces an array to a single value", "Sorts the elements of an array"],
+        "answer": "Creates a new array with the results of calling a provided function on every element",
+        "topic": "Array Methods: `map()` applies a function to each element of an array and returns a new array with the results.",
+        "difficulty": "Intermediate"
+    }
+
+
+]

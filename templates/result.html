@@ -1,0 +1,38 @@
+{% extends "base.html" %} <!--THE OG FILE -->
+
+{% block content %}
+<h2>Quiz Result</h2>
+<p>Your score is {{ score }}/{{ total_questions }}.</p>
+{% if incorrect_answers %}
+    <p>You should review the following topics:</p>
+    <ul class="incorrect-answers">
+        {% for answer in incorrect_answers %}
+            <li class="incorrect-answer">
+                <strong>Question:</strong> {{ answer.question }}<br>
+                <strong>Your Answer:</strong> {{ answer.user_answer }}<br>
+                <strong>Correct Answer:</strong> {{ answer.correct_answer }}<br>
+                <strong>Topic:</strong> {{ answer.topic }}
+            </li>
+            {% if not loop.last %}
+                <hr class="answer-divider">
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% endif %}
+{% if image_base64 %}
+    <h3>Visualization</h3>
+    <img src="data:image/png;base64,{{ image_base64 }}" alt="Result Visualization">
+{% endif %}
+{% endblock %}
+
+<style>
+    .incorrect-answer {
+        margin-bottom: 20px; /* Adjust the value to create the desired gap */
+        padding-bottom: 20px; /* Adjust the value to create the desired gap */
+    }
+    .answer-divider {
+        margin: 30px 0; /* Adjust the value to create the desired gap */
+        border: 5;
+        border-top: 20px solid #080808;
+    }
+</style>
